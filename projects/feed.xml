@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>xodn348 public projects</title>
+    <link>https://github.com/xodn348</link>
+    <description>Auto-updated public project feed for xodn348</description>
+    <lastBuildDate>Mon, 25 May 2026 23:06:18 +0000</lastBuildDate>
+
+    <item>
+      <title>deeper</title>
+      <link>https://github.com/xodn348/deeper</link>
+      <guid>https://github.com/xodn348/deeper</guid>
+      <pubDate>Mon, 25 May 2026 22:06:18 +0000</pubDate>
+      <description>Depth-first interview agent driven by Huntley&#x27;s ralph + feedback loops. Drills one claim to bedrock (first principle / source of truth); never expands. Per-round fresh subagent dispatch + path-bias self-improvement.</description>
+    </item>
+    <item>
+      <title>clawpay</title>
+      <link>https://github.com/xodn348/clawpay</link>
+      <guid>https://github.com/xodn348/clawpay</guid>
+      <pubDate>Fri, 22 May 2026 15:40:01 +0000</pubDate>
+      <description>Open-source payment MCP server for AI agents — Lithic &amp; Stripe &amp; PayPal</description>
+    </item>
+    <item>
+      <title>llm-wiki</title>
+      <link>https://github.com/xodn348/llm-wiki</link>
+      <guid>https://github.com/xodn348/llm-wiki</guid>
+      <pubDate>Fri, 22 May 2026 00:08:11 +0000</pubDate>
+      <description>LLM-maintained wiki of paradigm-shifting (Fleming-tier) scientific papers — chunk-level graph + topic atlas, Karpathy LLM Wiki pattern conformant</description>
+    </item>
+    <item>
+      <title>pegasus</title>
+      <link>https://github.com/xodn348/pegasus</link>
+      <guid>https://github.com/xodn348/pegasus</guid>
+      <pubDate>Thu, 21 May 2026 22:46:12 +0000</pubDate>
+      <description>Cloud-native autonomous project leader on Claude Code. Phone start → laptop off → autonomous completion.</description>
+    </item>
+    <item>
+      <title>cleanup</title>
+      <link>https://github.com/xodn348/cleanup</link>
+      <guid>https://github.com/xodn348/cleanup</guid>
+      <pubDate>Wed, 20 May 2026 20:01:41 +0000</pubDate>
+      <description>Passive tool-usage tracking + proactive removal recommendations for Claude Code. Never auto-deletes.</description>
+    </item>
+    <item>
+      <title>BTC_EXP</title>
+      <link>https://github.com/xodn348/BTC_EXP</link>
+      <guid>https://github.com/xodn348/BTC_EXP</guid>
+      <pubDate>Mon, 18 May 2026 23:04:05 +0000</pubDate>
+      <description>Bitcoin network explorer and analysis tools</description>
+    </item>
+    <item>
+      <title>han</title>
+      <link>https://github.com/xodn348/han</link>
+      <guid>https://github.com/xodn348/han</guid>
+      <pubDate>Wed, 06 May 2026 16:15:29 +0000</pubDate>
+      <description>A compiled programming language with Korean keywords, written in Rust</description>
+    </item>
+    <item>
+      <title>ai-news-radar</title>
+      <link>https://github.com/xodn348/ai-news-radar</link>
+      <guid>https://github.com/xodn348/ai-news-radar</guid>
+      <pubDate>Sat, 02 May 2026 04:09:22 +0000</pubDate>
+      <description>📡 AI 소식, 어디서 가장 먼저 터지는가? — 속도 순으로 정렬한 AI 뉴스 소스 큐레이션 (X · Reddit · 뉴스레터 · 논문 · YouTube)</description>
+    </item>
+    <item>
+      <title>destiny</title>
+      <link>https://github.com/xodn348/destiny</link>
+      <guid>https://github.com/xodn348/destiny</guid>
+      <pubDate>Fri, 01 May 2026 22:08:26 +0000</pubDate>
+      <description>Daily fortune-telling plugin for Claude Code.</description>
+    </item>
+    <item>
+      <title>cc-img-proxy</title>
+      <link>https://github.com/xodn348/cc-img-proxy</link>
+      <guid>https://github.com/xodn348/cc-img-proxy</guid>
+      <pubDate>Wed, 29 Apr 2026 05:30:56 +0000</pubDate>
+      <description>PTY proxy that renders inline images in Claude Code via iTerm2 OSC 1337</description>
+    </item>
+    <item>
+      <title>AIminer</title>
+      <link>https://github.com/xodn348/AIminer</link>
+      <guid>https://github.com/xodn348/AIminer</guid>
+      <pubDate>Tue, 31 Mar 2026 04:57:21 +0000</pubDate>
+      <description>AI-powered cryptocurrency miner with MCP protocol integration and multi-coin profit switching</description>
+    </item>
+    <item>
+      <title>ccLatex</title>
+      <link>https://github.com/xodn348/ccLatex</link>
+      <guid>https://github.com/xodn348/ccLatex</guid>
+      <pubDate>Wed, 25 Mar 2026 19:27:11 +0000</pubDate>
+      <description>Render LaTeX math in terminal streams and PTY-wrapped AI CLI output</description>
+    </item>
+    <item>
+      <title>Fleming-AI</title>
+      <link>https://github.com/xodn348/Fleming-AI</link>
+      <guid>https://github.com/xodn348/Fleming-AI</guid>
+      <pubDate>Mon, 16 Mar 2026 22:20:42 +0000</pubDate>
+      <description>AI-powered research assistant for scientific literature</description>
+    </item>
+    <item>
+      <title>codekit</title>
+      <link>https://github.com/xodn348/codekit</link>
+      <guid>https://github.com/xodn348/codekit</guid>
+      <pubDate>Sat, 14 Mar 2026 04:49:13 +0000</pubDate>
+      <description>AI-native code quality and security toolkit for AI-assisted development</description>
+    </item>
+    <item>
+      <title>codesure</title>
+      <link>https://github.com/xodn348/codesure</link>
+      <guid>https://github.com/xodn348/codesure</guid>
+      <pubDate>Fri, 13 Mar 2026 22:01:57 +0000</pubDate>
+      <description>⚠️ Moved to xodn348/codekit — Privacy-first security scanner (monorepo)</description>
+    </item>
+    <item>
+      <title>ai-native</title>
+      <link>https://github.com/xodn348/ai-native</link>
+      <guid>https://github.com/xodn348/ai-native</guid>
+      <pubDate>Fri, 13 Mar 2026 21:54:52 +0000</pubDate>
+      <description>⚠️ Moved to xodn348/codekit — AI-native coding guidelines (monorepo)</description>
+    </item>
+    <item>
+      <title>codesure-rules</title>
+      <link>https://github.com/xodn348/codesure-rules</link>
+      <guid>https://github.com/xodn348/codesure-rules</guid>
+      <pubDate>Thu, 12 Mar 2026 19:44:53 +0000</pubDate>
+      <description>Community-maintained security rules for CodeSure MCP scanner. Malicious code pattern database.</description>
+    </item>
+    <item>
+      <title>readhn</title>
+      <link>https://github.com/xodn348/readhn</link>
+      <guid>https://github.com/xodn348/readhn</guid>
+      <pubDate>Wed, 11 Mar 2026 00:31:07 +0000</pubDate>
+      <description>AI-native HackerNews MCP Server with EigenTrust expert ranking and explainable quality signals</description>
+    </item>
+    <item>
+      <title>AIarmy</title>
+      <link>https://github.com/xodn348/AIarmy</link>
+      <guid>https://github.com/xodn348/AIarmy</guid>
+      <pubDate>Fri, 20 Feb 2026 05:20:18 +0000</pubDate>
+      <description>Multi-agent orchestration system with security-first design — OWASP compliant</description>
+    </item>
+    <item>
+      <title>tokencrush</title>
+      <link>https://github.com/xodn348/tokencrush</link>
+      <guid>https://github.com/xodn348/tokencrush</guid>
+      <pubDate>Thu, 29 Jan 2026 17:32:59 +0000</pubDate>
+      <description>LLM API cost optimizer — cache responses, compress prompts, cut costs</description>
+    </item>
+    <item>
+      <title>AI_automated_trading</title>
+      <link>https://github.com/xodn348/AI_automated_trading</link>
+      <guid>https://github.com/xodn348/AI_automated_trading</guid>
+      <pubDate>Mon, 25 Aug 2025 04:38:14 +0000</pubDate>
+      <description>Automated trading bot with AI-driven market analysis</description>
+    </item>
+    <item>
+      <title>smart_contract</title>
+      <link>https://github.com/xodn348/smart_contract</link>
+      <guid>https://github.com/xodn348/smart_contract</guid>
+      <pubDate>Thu, 29 May 2025 03:54:39 +0000</pubDate>
+      <description>Solidity smart contracts — DeFi, tokens, and governance patterns</description>
+    </item>
+    <item>
+      <title>automated-arbitrage-trade</title>
+      <link>https://github.com/xodn348/automated-arbitrage-trade</link>
+      <guid>https://github.com/xodn348/automated-arbitrage-trade</guid>
+      <pubDate>Wed, 21 May 2025 03:19:19 +0000</pubDate>
+      <description>Automated arbitrage trading on Solana — testnet implementation</description>
+    </item>
+    <item>
+      <title>google-scholar-search</title>
+      <link>https://github.com/xodn348/google-scholar-search</link>
+      <guid>https://github.com/xodn348/google-scholar-search</guid>
+      <pubDate>Thu, 08 May 2025 21:07:46 +0000</pubDate>
+      <description>Python tool to search and analyze Google Scholar articles</description>
+    </item>
+  </channel>
+</rss>
