@@ -4,8 +4,15 @@
     <title>xodn348 public projects</title>
     <link>https://github.com/xodn348</link>
     <description>Auto-updated public project feed for xodn348</description>
-    <lastBuildDate>Thu, 28 May 2026 17:46:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 17:46:25 +0000</lastBuildDate>
 
+    <item>
+      <title>destiny</title>
+      <link>https://github.com/xodn348/destiny</link>
+      <guid>https://github.com/xodn348/destiny</guid>
+      <pubDate>Fri, 29 May 2026 17:34:24 +0000</pubDate>
+      <description>Daily fortune-telling plugin for Claude Code.</description>
+    </item>
     <item>
       <title>deeper</title>
       <link>https://github.com/xodn348/deeper</link>
@@ -54,13 +61,6 @@
       <guid>https://github.com/xodn348/han</guid>
       <pubDate>Wed, 06 May 2026 16:15:29 +0000</pubDate>
       <description>A compiled programming language with Korean keywords, written in Rust</description>
-    </item>
-    <item>
-      <title>destiny</title>
-      <link>https://github.com/xodn348/destiny</link>
-      <guid>https://github.com/xodn348/destiny</guid>
-      <pubDate>Fri, 01 May 2026 22:08:26 +0000</pubDate>
-      <description>Daily fortune-telling plugin for Claude Code.</description>
     </item>
     <item>
       <title>cc-img-proxy</title>
