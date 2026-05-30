@@ -4,28 +4,28 @@
     <title>xodn348 public projects</title>
     <link>https://github.com/xodn348</link>
     <description>Auto-updated public project feed for xodn348</description>
-    <lastBuildDate>Fri, 29 May 2026 17:46:25 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 15:39:17 +0000</lastBuildDate>
 
-    <item>
-      <title>destiny</title>
-      <link>https://github.com/xodn348/destiny</link>
-      <guid>https://github.com/xodn348/destiny</guid>
-      <pubDate>Fri, 29 May 2026 17:34:24 +0000</pubDate>
-      <description>Daily fortune-telling plugin for Claude Code.</description>
-    </item>
     <item>
       <title>deeper</title>
       <link>https://github.com/xodn348/deeper</link>
       <guid>https://github.com/xodn348/deeper</guid>
-      <pubDate>Wed, 27 May 2026 23:02:39 +0000</pubDate>
+      <pubDate>Fri, 29 May 2026 23:05:40 +0000</pubDate>
       <description>Depth-first interview agent driven by Huntley&#x27;s ralph + feedback loops. Drills one claim to bedrock (first principle / source of truth); never expands. Per-round fresh subagent dispatch + path-bias self-improvement.</description>
     </item>
     <item>
       <title>clawpay</title>
       <link>https://github.com/xodn348/clawpay</link>
       <guid>https://github.com/xodn348/clawpay</guid>
-      <pubDate>Fri, 22 May 2026 15:40:01 +0000</pubDate>
+      <pubDate>Fri, 29 May 2026 18:46:11 +0000</pubDate>
       <description>Open-source payment MCP server for AI agents — Lithic &amp; Stripe &amp; PayPal</description>
+    </item>
+    <item>
+      <title>destiny</title>
+      <link>https://github.com/xodn348/destiny</link>
+      <guid>https://github.com/xodn348/destiny</guid>
+      <pubDate>Fri, 29 May 2026 17:34:24 +0000</pubDate>
+      <description>Daily fortune-telling plugin for Claude Code.</description>
     </item>
     <item>
       <title>llm-wiki</title>
