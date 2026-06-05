@@ -4,8 +4,15 @@
     <title>xodn348 public projects</title>
     <link>https://github.com/xodn348</link>
     <description>Auto-updated public project feed for xodn348</description>
-    <lastBuildDate>Thu, 04 Jun 2026 17:25:11 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 16:43:32 +0000</lastBuildDate>
 
+    <item>
+      <title>clawpay</title>
+      <link>https://github.com/xodn348/clawpay</link>
+      <guid>https://github.com/xodn348/clawpay</guid>
+      <pubDate>Fri, 05 Jun 2026 15:33:39 +0000</pubDate>
+      <description>Open-source payment MCP server for AI agents — Lithic &amp; Stripe &amp; PayPal</description>
+    </item>
     <item>
       <title>future-history</title>
       <link>https://github.com/xodn348/future-history</link>
@@ -26,13 +33,6 @@
       <guid>https://github.com/xodn348/deeper</guid>
       <pubDate>Mon, 01 Jun 2026 06:43:38 +0000</pubDate>
       <description>Depth-first interview agent driven by Huntley&#x27;s ralph + feedback loops. Drills one claim to bedrock (first principle / source of truth); never expands. Per-round fresh subagent dispatch + path-bias self-improvement.</description>
-    </item>
-    <item>
-      <title>clawpay</title>
-      <link>https://github.com/xodn348/clawpay</link>
-      <guid>https://github.com/xodn348/clawpay</guid>
-      <pubDate>Fri, 29 May 2026 18:46:11 +0000</pubDate>
-      <description>Open-source payment MCP server for AI agents — Lithic &amp; Stripe &amp; PayPal</description>
     </item>
     <item>
       <title>destiny</title>
