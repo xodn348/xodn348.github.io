@@ -4,8 +4,36 @@
     <title>xodn348 public projects</title>
     <link>https://github.com/xodn348</link>
     <description>Auto-updated public project feed for xodn348</description>
-    <lastBuildDate>Fri, 05 Jun 2026 16:43:32 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 15:43:22 +0000</lastBuildDate>
 
+    <item>
+      <title>termpay</title>
+      <link>https://github.com/xodn348/termpay</link>
+      <guid>https://github.com/xodn348/termpay</guid>
+      <pubDate>Fri, 05 Jun 2026 17:26:19 +0000</pubDate>
+      <description>Local CLI wallet that lets AI agents pay autonomously — MCP-native payments router</description>
+    </item>
+    <item>
+      <title>ccLatex</title>
+      <link>https://github.com/xodn348/ccLatex</link>
+      <guid>https://github.com/xodn348/ccLatex</guid>
+      <pubDate>Fri, 05 Jun 2026 17:26:17 +0000</pubDate>
+      <description>Render LaTeX math in terminal streams and PTY-wrapped AI CLI output</description>
+    </item>
+    <item>
+      <title>deeper</title>
+      <link>https://github.com/xodn348/deeper</link>
+      <guid>https://github.com/xodn348/deeper</guid>
+      <pubDate>Fri, 05 Jun 2026 17:26:16 +0000</pubDate>
+      <description>Depth-first interview agent driven by Huntley&#x27;s ralph + feedback loops. Drills one claim to bedrock (first principle / source of truth); never expands. Per-round fresh subagent dispatch + path-bias self-improvement.</description>
+    </item>
+    <item>
+      <title>future-history</title>
+      <link>https://github.com/xodn348/future-history</link>
+      <guid>https://github.com/xodn348/future-history</guid>
+      <pubDate>Fri, 05 Jun 2026 17:26:14 +0000</pubDate>
+      <description>A Future History of Humanity: a data-anchored 2026→2200 forecast across three branches, with generated era art.</description>
+    </item>
     <item>
       <title>clawpay</title>
       <link>https://github.com/xodn348/clawpay</link>
@@ -14,25 +42,11 @@
       <description>Open-source payment MCP server for AI agents — Lithic &amp; Stripe &amp; PayPal</description>
     </item>
     <item>
-      <title>future-history</title>
-      <link>https://github.com/xodn348/future-history</link>
-      <guid>https://github.com/xodn348/future-history</guid>
-      <pubDate>Wed, 03 Jun 2026 05:45:47 +0000</pubDate>
-      <description>A Future History of Humanity: a data-anchored 2026→2200 forecast across three branches, with generated era art.</description>
-    </item>
-    <item>
       <title>ray.project-reproducibility</title>
       <link>https://github.com/xodn348/ray.project-reproducibility</link>
       <guid>https://github.com/xodn348/ray.project-reproducibility</guid>
       <pubDate>Tue, 02 Jun 2026 00:29:25 +0000</pubDate>
       <description>Clean reproducibility package for Bitcoin transaction data paper</description>
-    </item>
-    <item>
-      <title>deeper</title>
-      <link>https://github.com/xodn348/deeper</link>
-      <guid>https://github.com/xodn348/deeper</guid>
-      <pubDate>Mon, 01 Jun 2026 06:43:38 +0000</pubDate>
-      <description>Depth-first interview agent driven by Huntley&#x27;s ralph + feedback loops. Drills one claim to bedrock (first principle / source of truth); never expands. Per-round fresh subagent dispatch + path-bias self-improvement.</description>
     </item>
     <item>
       <title>destiny</title>
@@ -91,13 +105,6 @@
       <description>AI-powered cryptocurrency miner with MCP protocol integration and multi-coin profit switching</description>
     </item>
     <item>
-      <title>ccLatex</title>
-      <link>https://github.com/xodn348/ccLatex</link>
-      <guid>https://github.com/xodn348/ccLatex</guid>
-      <pubDate>Wed, 25 Mar 2026 19:27:11 +0000</pubDate>
-      <description>Render LaTeX math in terminal streams and PTY-wrapped AI CLI output</description>
-    </item>
-    <item>
       <title>Fleming-AI</title>
       <link>https://github.com/xodn348/Fleming-AI</link>
       <guid>https://github.com/xodn348/Fleming-AI</guid>
@@ -152,34 +159,6 @@
       <guid>https://github.com/xodn348/tokencrush</guid>
       <pubDate>Thu, 29 Jan 2026 17:32:59 +0000</pubDate>
       <description>LLM API cost optimizer — cache responses, compress prompts, cut costs</description>
-    </item>
-    <item>
-      <title>AI_automated_trading</title>
-      <link>https://github.com/xodn348/AI_automated_trading</link>
-      <guid>https://github.com/xodn348/AI_automated_trading</guid>
-      <pubDate>Mon, 25 Aug 2025 04:38:14 +0000</pubDate>
-      <description>Automated trading bot with AI-driven market analysis</description>
-    </item>
-    <item>
-      <title>smart_contract</title>
-      <link>https://github.com/xodn348/smart_contract</link>
-      <guid>https://github.com/xodn348/smart_contract</guid>
-      <pubDate>Thu, 29 May 2025 03:54:39 +0000</pubDate>
-      <description>Solidity smart contracts — DeFi, tokens, and governance patterns</description>
-    </item>
-    <item>
-      <title>automated-arbitrage-trade</title>
-      <link>https://github.com/xodn348/automated-arbitrage-trade</link>
-      <guid>https://github.com/xodn348/automated-arbitrage-trade</guid>
-      <pubDate>Wed, 21 May 2025 03:19:19 +0000</pubDate>
-      <description>Automated arbitrage trading on Solana — testnet implementation</description>
-    </item>
-    <item>
-      <title>google-scholar-search</title>
-      <link>https://github.com/xodn348/google-scholar-search</link>
-      <guid>https://github.com/xodn348/google-scholar-search</guid>
-      <pubDate>Thu, 08 May 2025 21:07:46 +0000</pubDate>
-      <description>Python tool to search and analyze Google Scholar articles</description>
     </item>
   </channel>
 </rss>
