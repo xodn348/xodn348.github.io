@@ -4,15 +4,8 @@
     <title>xodn348 public projects</title>
     <link>https://github.com/xodn348</link>
     <description>Auto-updated public project feed for xodn348</description>
-    <lastBuildDate>Mon, 08 Jun 2026 17:30:23 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 17:06:14 +0000</lastBuildDate>
 
-    <item>
-      <title>termpay</title>
-      <link>https://github.com/xodn348/termpay</link>
-      <guid>https://github.com/xodn348/termpay</guid>
-      <pubDate>Fri, 05 Jun 2026 17:26:19 +0000</pubDate>
-      <description>Local CLI wallet that lets AI agents pay autonomously — MCP-native payments router</description>
-    </item>
     <item>
       <title>ccLatex</title>
       <link>https://github.com/xodn348/ccLatex</link>

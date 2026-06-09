@@ -1,19 +1,7 @@
 {
-  "generated_at": "2026-06-08T17:30:23.195999+00:00",
+  "generated_at": "2026-06-09T17:06:14.675788+00:00",
   "owner": "xodn348",
   "repos": [
-    {
-      "created_at": "2026-05-20T21:22:04Z",
-      "description": "Local CLI wallet that lets AI agents pay autonomously — MCP-native payments router",
-      "full_name": "xodn348/termpay",
-      "language": "TypeScript",
-      "name": "termpay",
-      "pushed_at": "2026-06-05T17:26:19Z",
-      "stars": 0,
-      "topics": [],
-      "updated_at": "2026-06-05T18:37:26Z",
-      "url": "https://github.com/xodn348/termpay"
-    },
     {
       "created_at": "2026-03-23T22:53:29Z",
       "description": "Render LaTeX math in terminal streams and PTY-wrapped AI CLI output",
