@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T17:39:20.891728+00:00",
+  "generated_at": "2026-06-11T17:47:48.498609+00:00",
   "owner": "xodn348",
   "repos": [
     {
@@ -168,18 +168,6 @@
       "url": "https://github.com/xodn348/cc-img-proxy"
     },
     {
-      "created_at": "2026-03-29T23:03:03Z",
-      "description": "AI-powered cryptocurrency miner with MCP protocol integration and multi-coin profit switching",
-      "full_name": "xodn348/AIminer",
-      "language": "Python",
-      "name": "AIminer",
-      "pushed_at": "2026-03-31T04:57:21Z",
-      "stars": 0,
-      "topics": [],
-      "updated_at": "2026-03-31T04:57:26Z",
-      "url": "https://github.com/xodn348/AIminer"
-    },
-    {
       "created_at": "2026-02-06T23:34:09Z",
       "description": "AI-powered research assistant for scientific literature",
       "full_name": "xodn348/Fleming-AI",
@@ -208,30 +196,6 @@
       "url": "https://github.com/xodn348/codekit"
     },
     {
-      "created_at": "2026-03-12T19:44:51Z",
-      "description": "⚠️ Moved to xodn348/codekit — Privacy-first security scanner (monorepo)",
-      "full_name": "xodn348/codesure",
-      "language": "TypeScript",
-      "name": "codesure",
-      "pushed_at": "2026-03-13T22:01:57Z",
-      "stars": 0,
-      "topics": [],
-      "updated_at": "2026-03-14T17:32:33Z",
-      "url": "https://github.com/xodn348/codesure"
-    },
-    {
-      "created_at": "2026-03-10T18:13:41Z",
-      "description": "⚠️ Moved to xodn348/codekit — AI-native coding guidelines (monorepo)",
-      "full_name": "xodn348/ai-native",
-      "language": "JavaScript",
-      "name": "ai-native",
-      "pushed_at": "2026-03-13T21:54:52Z",
-      "stars": 0,
-      "topics": [],
-      "updated_at": "2026-03-14T17:32:32Z",
-      "url": "https://github.com/xodn348/ai-native"
-    },
-    {
       "created_at": "2026-03-12T19:44:52Z",
       "description": "Community-maintained security rules for CodeSure MCP scanner. Malicious code pattern database.",
       "full_name": "xodn348/codesure-rules",
@@ -254,24 +218,6 @@
       "topics": [],
       "updated_at": "2026-03-16T04:06:46Z",
       "url": "https://github.com/xodn348/readhn"
-    },
-    {
-      "created_at": "2026-02-19T21:29:47Z",
-      "description": "Multi-agent orchestration system with security-first design — OWASP compliant",
-      "full_name": "xodn348/AIarmy",
-      "language": "Python",
-      "name": "AIarmy",
-      "pushed_at": "2026-02-20T05:20:18Z",
-      "stars": 0,
-      "topics": [
-        "ai-agent",
-        "multi-agent",
-        "orchestration",
-        "python",
-        "security"
-      ],
-      "updated_at": "2026-03-07T21:55:15Z",
-      "url": "https://github.com/xodn348/AIarmy"
     },
     {
       "created_at": "2026-01-27T20:43:47Z",

@@ -4,7 +4,7 @@
     <title>xodn348 public projects</title>
     <link>https://github.com/xodn348</link>
     <description>Auto-updated public project feed for xodn348</description>
-    <lastBuildDate>Wed, 10 Jun 2026 17:39:20 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 17:47:48 +0000</lastBuildDate>
 
     <item>
       <title>ccLatex</title>
@@ -91,13 +91,6 @@
       <description>PTY proxy that renders inline images in Claude Code via iTerm2 OSC 1337</description>
     </item>
     <item>
-      <title>AIminer</title>
-      <link>https://github.com/xodn348/AIminer</link>
-      <guid>https://github.com/xodn348/AIminer</guid>
-      <pubDate>Tue, 31 Mar 2026 04:57:21 +0000</pubDate>
-      <description>AI-powered cryptocurrency miner with MCP protocol integration and multi-coin profit switching</description>
-    </item>
-    <item>
       <title>Fleming-AI</title>
       <link>https://github.com/xodn348/Fleming-AI</link>
       <guid>https://github.com/xodn348/Fleming-AI</guid>
@@ -112,20 +105,6 @@
       <description>AI-native code quality and security toolkit for AI-assisted development</description>
     </item>
     <item>
-      <title>codesure</title>
-      <link>https://github.com/xodn348/codesure</link>
-      <guid>https://github.com/xodn348/codesure</guid>
-      <pubDate>Fri, 13 Mar 2026 22:01:57 +0000</pubDate>
-      <description>⚠️ Moved to xodn348/codekit — Privacy-first security scanner (monorepo)</description>
-    </item>
-    <item>
-      <title>ai-native</title>
-      <link>https://github.com/xodn348/ai-native</link>
-      <guid>https://github.com/xodn348/ai-native</guid>
-      <pubDate>Fri, 13 Mar 2026 21:54:52 +0000</pubDate>
-      <description>⚠️ Moved to xodn348/codekit — AI-native coding guidelines (monorepo)</description>
-    </item>
-    <item>
       <title>codesure-rules</title>
       <link>https://github.com/xodn348/codesure-rules</link>
       <guid>https://github.com/xodn348/codesure-rules</guid>
@@ -138,13 +117,6 @@
       <guid>https://github.com/xodn348/readhn</guid>
       <pubDate>Wed, 11 Mar 2026 00:31:07 +0000</pubDate>
       <description>AI-native HackerNews MCP Server with EigenTrust expert ranking and explainable quality signals</description>
-    </item>
-    <item>
-      <title>AIarmy</title>
-      <link>https://github.com/xodn348/AIarmy</link>
-      <guid>https://github.com/xodn348/AIarmy</guid>
-      <pubDate>Fri, 20 Feb 2026 05:20:18 +0000</pubDate>
-      <description>Multi-agent orchestration system with security-first design — OWASP compliant</description>
     </item>
     <item>
       <title>tokencrush</title>
