@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T17:47:48.498609+00:00",
+  "generated_at": "2026-06-12T17:17:40.167052+00:00",
   "owner": "xodn348",
   "repos": [
     {
@@ -143,7 +143,7 @@
       "language": "Rust",
       "name": "han",
       "pushed_at": "2026-05-06T16:15:29Z",
-      "stars": 181,
+      "stars": 180,
       "topics": [
         "compiler",
         "hangul",
@@ -152,7 +152,7 @@
         "programming-language",
         "rust"
       ],
-      "updated_at": "2026-06-02T13:17:15Z",
+      "updated_at": "2026-06-11T23:45:46Z",
       "url": "https://github.com/xodn348/han"
     },
     {
