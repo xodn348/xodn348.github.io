@@ -4,8 +4,15 @@
     <title>xodn348 public projects</title>
     <link>https://github.com/xodn348</link>
     <description>Auto-updated public project feed for xodn348</description>
-    <lastBuildDate>Sat, 13 Jun 2026 15:51:53 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 15:59:25 +0000</lastBuildDate>
 
+    <item>
+      <title>ray.project-reproducibility</title>
+      <link>https://github.com/xodn348/ray.project-reproducibility</link>
+      <guid>https://github.com/xodn348/ray.project-reproducibility</guid>
+      <pubDate>Sat, 13 Jun 2026 17:45:44 +0000</pubDate>
+      <description>Clean reproducibility package for Bitcoin transaction data paper</description>
+    </item>
     <item>
       <title>ccLatex</title>
       <link>https://github.com/xodn348/ccLatex</link>
@@ -33,13 +40,6 @@
       <guid>https://github.com/xodn348/clawpay</guid>
       <pubDate>Fri, 05 Jun 2026 15:33:39 +0000</pubDate>
       <description>Open-source payment MCP server for AI agents — Lithic &amp; Stripe &amp; PayPal</description>
-    </item>
-    <item>
-      <title>ray.project-reproducibility</title>
-      <link>https://github.com/xodn348/ray.project-reproducibility</link>
-      <guid>https://github.com/xodn348/ray.project-reproducibility</guid>
-      <pubDate>Tue, 02 Jun 2026 00:29:25 +0000</pubDate>
-      <description>Clean reproducibility package for Bitcoin transaction data paper</description>
     </item>
     <item>
       <title>destiny</title>
