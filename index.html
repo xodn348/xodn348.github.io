@@ -1,857 +1,400 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Junhyuk Lee</title>
-    
-    <!-- SEO & AI-friendly meta tags -->
-    <meta name="description" content="Junhyuk Lee - Blockchain developer, Bitcoin researcher, and entrepreneur. Former EY Senior Consultant. USCPA. Building AI trading systems, Solidity smart contracts, and decentralized applications.">
-    <meta name="author" content="Junhyuk Lee">
-    <meta name="keywords" content="Junhyuk Lee, Blockchain, Bitcoin, Solidity, Smart Contracts, MEV, Solana, Ethereum, AI Trading, USCPA, CISA, EY, Entrepreneur, Developer">
-    
-    <!-- Open Graph (for link sharing) -->
-    <meta property="og:title" content="Junhyuk Lee - Blockchain Developer & Entrepreneur">
-    <meta property="og:description" content="Blockchain developer, Bitcoin researcher. Former EY Senior Consultant. Building AI trading systems and smart contracts.">
-    <meta property="og:type" content="profile">
-    <meta property="og:profile:first_name" content="Junhyuk">
-    <meta property="og:profile:last_name" content="Lee">
-    
-    <!-- Schema.org structured data for AI/Search engines -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Junhyuk Lee",
-        "givenName": "Junhyuk",
-        "familyName": "Lee",
-        "jobTitle": "Blockchain Developer & Entrepreneur",
-        "description": "Blockchain developer and Bitcoin researcher with background in IT audit and financial consulting. Former EY Senior Consultant. Building AI-powered trading systems, Solidity smart contracts, and decentralized applications on Ethereum and Solana.",
-        "url": "https://github.com/xodn348",
-        "email": "xodn348@gmail.com",
-        "sameAs": [
-            "https://github.com/xodn348",
-            "https://linkedin.com/in/junhyuk-lee-352932145",
-            "https://njump.me/npub10lk4rz8ekhyv0g99edrwcwutdpcynmkj0fcl6nrkg6kh27lulssssksu0r"
-        ],
-        "knowsAbout": [
-            "Bitcoin researcher",
-            "Bitcoin research",
-            "CPA",
-            "blockchain",
-            "Computer Scientist",
-            "Entrepreneur",
-        ],
-        "hasCredential": [
-            {
-                "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "Professional License",
-                "name": "USCPA (Washington State)",
-                "identifier": "WA/51944"
-            },
-            {
-                "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "Professional Certification",
-                "name": "CISA Candidate"
-            },
-            {
-                "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "Professional Certification",
-                "name": "CISSP Associate"
-            },
-            {
-                "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "Certificate Program",
-                "name": "KAIST Digital Finance Mastership (Blockchain)"
-            }
-        ],
-        "worksFor": {
-            "@type": "Organization",
-            "name": "Self-employed / Entrepreneur"
-        },
-        "alumniOf": [
-            {
-                "@type": "CollegeOrUniversity",
-                "name": "Texas A&M University",
-                "description": "M.S. in Computer Science"
-            },
-            {
-                "@type": "EducationalOrganization",
-                "name": "KAIST College of Business",
-                "description": "Digital Finance Mastership Program (Blockchain)"
-            },
-            {
-                "@type": "CollegeOrUniversity",
-                "name": "Dankook University",
-                "description": "B.A. in International Business Administration, GPA 3.93/4.5"
-            }
-        ],
-        "award": "GitHub Arctic Code Vault Contributor",
-        "knowsLanguage": ["English", "Korean"]
-    }
-    </script>
-    <style>
-        body {
-            font-family: Georgia, 'Times New Roman', serif;
-            max-width: 650px;
-            margin: 40px auto;
-            padding: 0 20px;
-            line-height: 1.6;
-            color: #111;
-            background: #fff;
-        }
-        a {
-            color: #0000EE;
-            text-decoration: underline;
-        }
-        a:visited {
-            color: #551A8B;
-        }
-        h1 {
-            font-size: 1.5em;
-            margin-bottom: 0.2em;
-        }
-        h2 {
-            font-size: 1.1em;
-            margin-top: 2em;
-            border-bottom: 1px solid #ccc;
-            padding-bottom: 0.3em;
-        }
-        .header {
-            margin-bottom: 2em;
-        }
-        .links {
-            font-size: 0.9em;
-            color: #555;
-        }
-        .links a {
-            margin-right: 1em;
-        }
-        .post {
-            margin-bottom: 1.5em;
-            padding-bottom: 1em;
-            border-bottom: 1px dotted #ddd;
-        }
-        .post-date {
-            font-size: 0.85em;
-            color: #666;
-            font-family: monospace;
-        }
-        .post-content {
-            margin-top: 0.5em;
-        }
-        #nostr-posts {
-            min-height: 100px;
-        }
-        .loading {
-            color: #888;
-            font-style: italic;
-        }
-        .photo {
-            width: 180px;
-            height: auto;
-            border-radius: 8px;
-            margin-bottom: 1em;
-        }
-        code {
-            font-family: monospace;
-            background: #f5f5f5;
-            padding: 2px 5px;
-            font-size: 0.9em;
-        }
-        .section {
-            margin-bottom: 2.5em;
-        }
-        ul {
-            padding-left: 1.5em;
-        }
-        li {
-            margin-bottom: 0.5em;
-        }
-        /* Post form styles */
-        .post-form {
-            margin-bottom: 2em;
-            padding: 1em;
-            background: #fafafa;
-            border: 1px solid #ddd;
-        }
-        .post-form textarea {
-            width: 100%;
-            min-height: 80px;
-            padding: 0.5em;
-            font-family: Georgia, 'Times New Roman', serif;
-            font-size: 1em;
-            border: 1px solid #ccc;
-            resize: vertical;
-            box-sizing: border-box;
-        }
-        .post-form button {
-            margin-top: 0.5em;
-            padding: 0.5em 1em;
-            font-family: Georgia, 'Times New Roman', serif;
-            font-size: 0.9em;
-            background: #fff;
-            border: 1px solid #333;
-            cursor: pointer;
-        }
-        .post-form button:hover {
-            background: #333;
-            color: #fff;
-        }
-        .post-form button:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-        .status {
-            font-size: 0.85em;
-            margin-top: 0.5em;
-            color: #666;
-        }
-        .status.error {
-            color: #c00;
-        }
-        .status.success {
-            color: #080;
-        }
-        .nostr-login {
-            font-size: 0.85em;
-            margin-bottom: 1em;
-        }
-        .nostr-login a {
-            cursor: pointer;
-        }
-        /* Visitor counter */
-        .visitor-counter {
-            font-family: 'Courier New', monospace;
-            font-size: 0.8em;
-            color: #666;
-            margin-top: 3em;
-            padding-top: 1em;
-            border-top: 1px solid #eee;
-            text-align: center;
-        }
-        .counter-num {
-            background: #111;
-            color: #0f0;
-            padding: 2px 8px;
-            border-radius: 3px;
-            font-weight: bold;
-        }
-        /* Comments section */
-        .comment {
-            margin-bottom: 1em;
-            padding: 0.8em;
-            background: #fafafa;
-            border-left: 2px solid #ddd;
-        }
-        .comment-author {
-            font-size: 0.85em;
-            color: #666;
-            margin-bottom: 0.3em;
-        }
-        .comment-author a {
-            color: #666;
-        }
-        .comment-content {
-            font-size: 0.95em;
-        }
-        .comment-date {
-            font-size: 0.75em;
-            color: #999;
-            margin-top: 0.3em;
-        }
-        .comment-form {
-            margin-top: 1em;
-            padding: 1em;
-            background: #f9f9f9;
-            border: 1px dashed #ddd;
-        }
-        .comment-form textarea {
-            width: 100%;
-            min-height: 60px;
-            padding: 0.5em;
-            font-family: Georgia, 'Times New Roman', serif;
-            font-size: 0.9em;
-            border: 1px solid #ccc;
-            resize: vertical;
-            box-sizing: border-box;
-        }
-        .comment-form button {
-            margin-top: 0.5em;
-            padding: 0.4em 0.8em;
-            font-size: 0.85em;
-            background: #fff;
-            border: 1px solid #333;
-            cursor: pointer;
-        }
-        .comment-form button:hover {
-            background: #333;
-            color: #fff;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Junhyuk Lee | Builder & Researcher</title>
+
+<!-- SEO -->
+<meta name="description" content="Junhyuk Lee, software builder and researcher. I build programming languages, AI agents, developer tools, and trading systems, and research blockchain, AI, and cryptography. Former EY IT-audit consultant, USCPA, MS Computer Science at Texas A&M.">
+<meta name="author" content="Junhyuk Lee">
+<meta name="keywords" content="Junhyuk Lee, software engineer, researcher, programming languages, compilers, AI agents, developer tools, Bitcoin, blockchain, applied cryptography, mechanism design, Rust, Solidity, USCPA, CISA, CISSP, IT audit, Texas A&M">
+<link rel="canonical" href="https://xodn348.github.io/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Junhyuk Lee | Builder & Researcher">
+<meta property="og:description" content="Software builder and researcher. Programming languages, AI agents, developer tools, and applied cryptography. Former EY IT-audit consultant, USCPA.">
+<meta property="og:url" content="https://xodn348.github.io/">
+<meta property="og:image" content="https://xodn348.github.io/photo.jpg">
+<meta property="og:profile:first_name" content="Junhyuk">
+<meta property="og:profile:last_name" content="Lee">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Junhyuk Lee | Builder & Researcher">
+<meta name="twitter:description" content="Software builder and researcher. Programming languages, AI agents, and applied cryptography.">
+<meta name="twitter:image" content="https://xodn348.github.io/photo.jpg">
+
+<!-- Schema.org structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Junhyuk Lee",
+  "givenName": "Junhyuk",
+  "familyName": "Lee",
+  "jobTitle": "Software Builder & Researcher",
+  "description": "Software builder and researcher. Builds programming languages, AI agents, developer tools, and trading systems; researches blockchain, AI, and cryptography. Former EY IT-audit consultant in financial services. USCPA. MS Computer Science, Texas A&M University.",
+  "url": "https://xodn348.github.io/",
+  "image": "https://xodn348.github.io/photo.jpg",
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "Texas A&M University" },
+    { "@type": "CollegeOrUniversity", "name": "KAIST College of Business" },
+    { "@type": "CollegeOrUniversity", "name": "Dankook University" }
+  ],
+  "knowsAbout": [
+    "Audit",
+    "IT audit",
+    "Software engineering",
+    "Programming languages",
+    "Compilers",
+    "AI agents",
+    "Developer tools",
+    "Blockchain",
+    "Applied cryptography",
+    "Mechanism design"
+  ],
+  "hasCredential": [
+    { "@type": "EducationalOccupationalCredential", "credentialCategory": "license", "name": "USCPA (Certified Public Accountant)" },
+    { "@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "CISA" },
+    { "@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "CISSP (Associate)" }
+  ],
+  "sameAs": [
+    "https://github.com/xodn348",
+    "https://www.linkedin.com/in/jun9207",
+    "https://arxiv.org/abs/2606.05503"
+  ]
+}
+</script>
+
+<style>
+:root {
+  --bg: #fdfdfa;
+  --fg: #1a1a1a;
+  --muted: #6b6b66;
+  --rule: #e6e4dc;
+  --accent: #1a4d8f;
+  --maxw: 680px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: Charter, Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+nav {
+  position: sticky;
+  top: 0;
+  background: rgba(253,253,250,0.92);
+  backdrop-filter: saturate(150%) blur(6px);
+  border-bottom: 1px solid var(--rule);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+}
+nav .inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 12px 24px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+nav a { color: var(--muted); }
+nav a:hover { color: var(--accent); text-decoration: none; }
+
+main { max-width: var(--maxw); margin: 0 auto; padding: 56px 24px 96px; }
+
+header.hero { display: flex; gap: 28px; align-items: flex-start; margin-bottom: 8px; }
+header.hero img {
+  width: 96px; height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 1px solid var(--rule);
+}
+h1 { font-size: 2rem; margin: 0 0 4px; letter-spacing: -0.01em; }
+.tagline { color: var(--muted); font-size: 1.05rem; margin: 0; }
+.contact {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.85rem;
+  margin-top: 10px;
+}
+.contact a { margin-right: 14px; }
+
+section { margin-top: 48px; }
+h2 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 600;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 6px;
+  margin-bottom: 18px;
+}
+p { margin: 0 0 14px; }
+
+.item { margin-bottom: 22px; }
+.item h3 { font-size: 1.05rem; margin: 0 0 2px; font-weight: 600; }
+.item .where { color: var(--muted); font-size: 0.92rem; margin: 0 0 4px; }
+.item p.desc { margin: 0; }
+.year {
+  float: right;
+  color: var(--muted);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+ul.clean { list-style: none; padding: 0; margin: 0; }
+ul.clean li { margin-bottom: 14px; }
+.cred {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+footer {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 24px;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.8rem;
+}
+
+.work { margin-bottom: 30px; }
+.work h3 { font-size: 1.08rem; margin: 0 0 7px; font-weight: 600; }
+.kv {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  margin: 0 0 4px;
+}
+.kv .k {
+  display: inline-block;
+  min-width: 58px;
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 0.7rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  vertical-align: baseline;
+}
+.fill { color: #b07a00; font-style: italic; }
+
+@media (max-width: 520px) {
+  body { font-size: 17px; }
+  header.hero { flex-direction: column; gap: 16px; }
+  header.hero img { width: 80px; height: 80px; }
+  .year { float: none; display: block; }
+}
+</style>
 </head>
 <body>
-    <div class="header">
-        <h1>Junhyuk Lee</h1>
-        <p class="links">
-            <a href="https://github.com/xodn348">GitHub</a>
-            <a href="https://njump.me/npub10lk4rz8ekhyv0g99edrwcwutdpcynmkj0fcl6nrkg6kh27lulssssksu0r">Nostr</a>
-        </p>
+
+<nav>
+  <div class="inner">
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#projects">Projects</a>
+    <a href="#cv">CV</a>
+  </div>
+</nav>
+
+<main>
+  <header class="hero">
+    <img src="photo.jpg" alt="Junhyuk Lee" width="96" height="96">
+    <div>
+      <h1>Junhyuk Lee</h1>
+      <p class="tagline">I build software and do research across blockchain, AI, and cryptography.</p>
+      <p class="contact">
+        <a href="mailto:xodn348@gmail.com">Email</a>
+        <a href="https://github.com/xodn348">GitHub</a>
+        <a href="https://www.linkedin.com/in/jun9207">LinkedIn</a>
+        <a href="https://arxiv.org/abs/2606.05503">arXiv</a>
+      </p>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I am an engineer who uses AI as leverage. I design the systems, drive them to done, and
+    move fast by pairing with coding agents across parallel worktrees. I build across programming
+    languages, AI agents, and services, usually at the intersection of two fields I am curious
+    about.</p>
+    <p>My path has been a series of deliberate switches. I qualified as a CPA and started in
+    financial statement audit at Woori and Bakertilly, then moved into IT audit at EY, reviewing
+    the systems behind Korea's banks and exchanges. Blockchain pulled me in next, so I studied it
+    at KAIST, and went to Texas A&amp;M for a master's in computer science, so I read a system as
+    both an engineer and an auditor.</p>
+  </section>
+
+  <section id="research">
+    <h2>Research</h2>
+    <div class="item">
+      <span class="year">2026</span>
+      <h3><a href="https://arxiv.org/abs/2606.05503">Bitcoin After Block Rewards</a></h3>
+      <p class="where">Preprint &middot; arXiv:2606.05503 (cs.CR, cs.GT)</p>
+      <p class="desc">Models miner incentives in a fee-only regime to derive the deviation
+      threshold for honest mining, and shows that combining a base fee, a fee floor, and an
+      adaptive block-size rule raises it.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p class="cred" style="margin-bottom:22px;">Things I started and carried to the end. For each: why I
+    started it, how the work split between me and AI, and the one thing I took away.</p>
+
+    <div class="work">
+      <span class="year">2026 · shipped</span>
+      <h3><a href="https://github.com/xodn348/han">Han, a Korean programming language</a></h3>
+      <p class="kv"><span class="k">Why</span> Hangul is a designed writing system, so I wanted to see what code looks like when the keywords, types, builtins, and even error messages are all Korean. And I wanted to ship a real LLVM-backed compiler, not a toy.</p>
+      <p class="kv"><span class="k">Me</span> I designed the language: the syntax, the type system, the Korean keyword and error-message decisions, and the overall architecture. I set the direction and made the calls on what to build.</p>
+      <p class="kv"><span class="k">AI</span> AI agents wrote most of the implementation under that design: the compiler pipeline, the LLVM codegen, the test and benchmark harness, the LSP, and the tooling.</p>
+      <p class="kv"><span class="k">Learned</span> How a language is built end to end: lexer, parser, AST, type checking, and the difference between interpreting and compiling to LLVM IR.</p>
     </div>
 
-    <div class="section">
-        <img class="photo" src="photo.jpg" alt="Junhyuk Lee">
-        <p>
-            I'm interested in making meaningful work through collaborative systems. 
-            Currently studying Computer Science at Texas A&M University.
-        </p>
-        <p>
-            This semester, I'm taking CSCE 672 (Computer-Supported Cooperative Work) 
-            to study past CSCW systems and understand how technology shapes collaboration.
-        </p>
+    <div class="work">
+      <span class="year">2026 · live</span>
+      <h3><a href="https://github.com/xodn348/everymorning">EveryMorning</a></h3>
+      <p class="kv"><span class="k">Why</span> I wanted to keep up with new STEM research without drowning in arXiv, so I built a service that finds the most impactful papers each day, summarizes them, and emails me the top three by 7 AM. It runs for free at stemem.info.</p>
+      <p class="kv"><span class="k">Me</span> I owned the product: what gets surfaced, the constraints (free tier only, send nothing rather than filler), and every operational piece, from the domain and hosting to the database, email, and secrets.</p>
+      <p class="kv"><span class="k">AI</span> AI orchestrators built the implementation under my direction: the pipeline, the scoring, the web app, the unsubscribe flow. Their plans are committed into the repo as an audit trail.</p>
+      <p class="kv"><span class="k">Learned</span> How to stand up a real service on zero-cost infrastructure: the Semantic Scholar API, Vercel, Supabase, and querying the database.</p>
     </div>
 
-    <!-- CSCW Assignment Section - Remove after grading -->
-    <div class="section" id="cscw-assignment">
-        <h2>CSCW Assignment</h2>
-        <h3 style="font-size: 1em; margin-top: 1em;">Collaborative Software I Use</h3>
-        <ul>
-            <li><strong>Communication:</strong> KakaoTalk (family/friends), Discord (communities/gaming)</li>
-            <li><strong>Collaborative Writing:</strong> Overleaf</li>
-            <li><strong>Organizing meetings:</strong> findbesttime.com</li>
-            <li><strong>Code Collaboration:</strong> GitHub</li>
-            <li><strong>Decentralized:</strong> Nostr</li>
-        </ul>
-        <h3 style="font-size: 1em; margin-top: 1em;">What Works & What Could Be Better</h3>
-        <p><strong>What helps most:</strong></p>
-        <ul>
-            <li><em>real-time communication</em> — KakaoTalk and iMessage works the best because of its vast user base and ease of use</li>
-            <li><em>Version history</em> — Git's branching model makes experimental changes safe</li>
-        </ul>
-        <p><strong>What could be better:</strong></p>
-        <ul>
-            <li><em>Platform lock-in</em> — Moving team history between tools is painful or impossible</li>
-        </ul>
+    <div class="work">
+      <span class="year">2026 · 65★</span>
+      <h3><a href="https://github.com/xodn348/destiny">destiny</a></h3>
+      <p class="kv"><span class="k">Why</span> A fun Claude Code plugin for a daily fortune reading, built on one principle: the numbers are computed, only the interpretation is generative. The saju and I Ching pillars are calculated locally, and the model just turns fixed numbers into prose.</p>
+      <p class="kv"><span class="k">Me</span> I set the framing and the product taste (deterministic computation with generative interpretation, English by default, prose over data rows), triaged the Hacker News feedback into the next features, and published it.</p>
+      <p class="kv"><span class="k">AI</span> AI wrote essentially all of the code and docs under that direction: the saju and I Ching engine, the skill spec, the README.</p>
+      <p class="kv"><span class="k">Learned</span> How to target user demand and get fast feedback, even from a toy project.</p>
     </div>
 
-    <div class="section" id="posts">
-        <h2>Posts</h2>
-        
-        <div id="post-form-container" style="display: none;">
-            <div class="post-form">
-                <div class="nostr-login">
-                    Signed in via <strong>Nostr</strong> · <a id="logout-btn">disconnect</a>
-                </div>
-                <textarea id="post-content" placeholder="Write something..."></textarea>
-                <button id="post-btn">Post to Nostr</button>
-                <div id="post-status" class="status"></div>
-            </div>
-        </div>
-        
-        <div id="login-prompt" class="nostr-login">
-            <a id="login-btn">Connect with Nostr (Alby)</a> to post from here
-        </div>
-        
-        <div id="nostr-posts">
-            <p class="loading">Loading from Nostr...</p>
-        </div>
+    <div class="work">
+      <span class="year">2026 · shipped</span>
+      <h3><a href="https://github.com/xodn348/deeper">deeper</a></h3>
+      <p class="kv"><span class="k">Why</span> I wanted an interview agent that drills one claim down to its bedrock instead of fanning out, the inverse of the usual breadth-first brainstorming tools.</p>
+      <p class="kv"><span class="k">Me</span> I set the concept and architecture: inverting a breadth-keeping interviewer into a depth-keeper, synthesizing four existing patterns, and designing the self-improving loop.</p>
+      <p class="kv"><span class="k">AI</span> AI agents built the engine under that design: the depth-first search and judge logic, the Claude Code dynamic workflow, the tests, and the docs.</p>
+      <p class="kv"><span class="k">Learned</span> How to build a self-improving agent loop: parallel subagents, a skeptical reviewer, Claude Code dynamic workflows, and calling tools effectively.</p>
     </div>
 
-    <div class="section">
-        <h2>Comments</h2>
-        <p style="font-size: 0.85em; color: #666;">Leave a comment via Nostr — it will appear here and on your Nostr feed.</p>
-        
-        <div id="comment-form-container" style="display: none;">
-            <div class="comment-form">
-                <textarea id="comment-content" placeholder="Write a comment..."></textarea>
-                <button id="comment-btn">Post Comment</button>
-                <span id="comment-status" class="status" style="margin-left: 1em;"></span>
-            </div>
-        </div>
-        
-        <div id="comment-login" class="nostr-login">
-            <a id="comment-login-btn">Connect with Nostr</a> to leave a comment
-        </div>
-        
-        <div id="nostr-comments">
-            <p class="loading">Loading comments...</p>
-        </div>
+    <div class="work">
+      <span class="year">2026 · 4★</span>
+      <h3><a href="https://github.com/xodn348/readhn">readhn</a></h3>
+      <p class="kv"><span class="k">Why</span> The real engineering knowledge on Hacker News is buried in practitioner comments. I wanted a tool that surfaces it through the user's lens and explains why each result matters.</p>
+      <p class="kv"><span class="k">Me</span> I set the direction: rebuild around three primitives, make trust the central signal, pick the seed experts, and ship it to PyPI and the MCP registry.</p>
+      <p class="kv"><span class="k">AI</span> An AI agent harness built essentially the whole codebase in one session, around 7,000 lines with full test coverage, under that direction.</p>
+      <p class="kv"><span class="k">Learned</span> How to find real signal in noise: the Hacker News API, and eigenvector-based trust ranking across a network.</p>
     </div>
 
-    <div class="visitor-counter">
-        <img src="https://visitor-badge.laobi.icu/badge?page_id=xodn348.github.io" alt="visitors" style="vertical-align: middle;">
+    <div class="work">
+      <span class="year">2026 · on npm</span>
+      <h3><a href="https://github.com/xodn348/codekit">codekit</a></h3>
+      <p class="kv"><span class="k">Why</span> AI agents write better, safer code when you give them a quality bar and a security floor. codekit bundles an evidence-based coding constitution (ai-native) with a fully local security scanner (codesure).</p>
+      <p class="kv"><span class="k">Me</span> I owned the product strategy, the monorepo structure, the npm releases, and all the docs, including toning down the benchmark claims.</p>
+      <p class="kv"><span class="k">AI</span> AI agents wrote most of the net-new implementation: the scanner engine, the rule sets, and the test and benchmark suites.</p>
+      <p class="kv"><span class="k">Learned</span> How to make a codebase readable and safe for AI agents: quality review, security scanning, and writing for LLM readability.</p>
     </div>
 
-    <script>
-        const NPUB = 'npub10lk4rz8ekhyv0g99edrwcwutdpcynmkj0fcl6nrkg6kh27lulssssksu0r';
-        const RELAYS = [
-            'wss://relay.damus.io',
-            'wss://relay.nostr.band',
-            'wss://nos.lol'
-        ];
+    <div class="work">
+      <span class="year">2026 · tool</span>
+      <h3><a href="https://github.com/xodn348/cleanup">cleanup</a></h3>
+      <p class="kv"><span class="k">Why</span> My Claude Code sessions got slow carrying around 60 unused skills and tools. cleanup passively logs what I actually call and nudges me to remove what has gone quiet, but never deletes on its own.</p>
+      <p class="kv"><span class="k">Me</span> I brought the problem and the product judgment: the safety design (recommend, never auto-delete) and the README voice and iteration.</p>
+      <p class="kv"><span class="k">AI</span> AI wrote nearly all of the shell tooling and docs under that direction.</p>
+      <p class="kv"><span class="k">Learned</span> How a skill's initial context loads, and how to keep SKILL.md and CLAUDE.md lean.</p>
+    </div>
 
-        // Convert npub to hex
-        function bech32ToHex(bech32) {
-            const ALPHABET = 'qpzry9x8gf2tvdw0s3jn54khce6mua7l';
-            const data = bech32.slice(5); // remove 'npub1'
-            let bits = '';
-            for (const char of data) {
-                const val = ALPHABET.indexOf(char);
-                if (val === -1) continue;
-                bits += val.toString(2).padStart(5, '0');
-            }
-            let hex = '';
-            for (let i = 0; i < bits.length - (bits.length % 8); i += 8) {
-                hex += parseInt(bits.slice(i, i + 8), 2).toString(16).padStart(2, '0');
-            }
-            return hex.slice(0, 64);
-        }
+    <div class="work">
+      <span class="year">2026 · live</span>
+      <h3><a href="https://xodn348.github.io/future-history/">future-history</a></h3>
+      <p class="kv"><span class="k">Why</span> A data-anchored forecast of humanity from 2026 to 2200 across three internally consistent branches, with code-generated era art. The thesis: capability is near certain across all branches; the open question is distribution.</p>
+      <p class="kv"><span class="k">Me</span> I set the concept (three branches, six eras, confidence tags), pushed it toward plain language, and made the call to strip the multilingual system back to English.</p>
+      <p class="kv"><span class="k">AI</span> More than a dozen AI agents generated the content and art: each branch arc, each era illustration, and the per-era syntheses.</p>
+      <p class="kv"><span class="k">Learned</span> How iterative agentic communication works, with many agents passing work back and forth to converge.</p>
+    </div>
 
-        const PUBKEY_HEX = bech32ToHex(NPUB);
-        const posts = [];
-        let loaded = false;
+    <div class="work">
+      <span class="year">2026 · live</span>
+      <h3><a href="https://xodn348.github.io/museum-as-code/">museum-as-code</a></h3>
+      <p class="kv"><span class="k">Why</span> Rebuild the National Museum of Korea as code, where every artifact record is real source in Han. The cultural archive and the language demo become the same executable artifact.</p>
+      <p class="kv"><span class="k">Me</span> I owned the curation and the strict rule of real Han syntax only, no fake pseudocode, and gated every feature through review and merge.</p>
+      <p class="kv"><span class="k">AI</span> AI agents generated the artifact entries, pages, and QA across parallel worktrees under that mandate.</p>
+      <p class="kv"><span class="k">Learned</span> Putting Han to real use: implementing an entire archive in the language I built.</p>
+    </div>
 
-        function formatDate(timestamp) {
-            const date = new Date(timestamp * 1000);
-            return date.toISOString().split('T')[0];
-        }
+    <h2 style="margin-top:44px;">Currently building</h2>
+    <ul class="clean">
+      <li><strong>computermoney</strong>: a Bitcoin-native wallet for AI agents, on Taproot (Rust).</li>
+      <li><strong>lifelog</strong>: a personal system that logs my day to build a behavioral model of myself.</li>
+      <li><strong>worklog</strong>: automated daily work-evidence generated from my own commits.</li>
+    </ul>
 
-        function renderPosts() {
-            const container = document.getElementById('nostr-posts');
-            
-            if (posts.length === 0) {
-                container.innerHTML = '<p class="loading">No posts yet. Write something on Nostr!</p>';
-                return;
-            }
+    <p style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:0.88rem;margin-top:18px;">
+      <a href="projects/">All public repositories</a>
+    </p>
+  </section>
 
-            // Sort by date, newest first
-            posts.sort((a, b) => b.created_at - a.created_at);
 
-            // Show only kind 1 (text notes), limit to 10
-            const textPosts = posts.filter(p => p.kind === 1).slice(0, 10);
+  <section id="cv">
+    <h2>Experience</h2>
+    <div class="item">
+      <span class="year">2021-2024</span>
+      <h3>Ernst &amp; Young, Senior Consultant, Tech Risk (Financial Services)</h3>
+      <p class="where">Seoul, South Korea</p>
+      <p class="desc">Led IT-audit engagements for the Korea Exchange and major banks; ran K-SOX
+      advisory and IT-control remodeling for financial institutions and cross-border entities.</p>
+    </div>
+    <div class="item">
+      <span class="year">2019-2021</span>
+      <h3>Woori &amp; Bakertilly, Staff Accountant, Assurance</h3>
+      <p class="where">Seoul, South Korea</p>
+      <p class="desc">Audited financial statements under K-GAAP and valued startups for fund
+      investments.</p>
+    </div>
 
-            container.innerHTML = textPosts.map(post => `
-                <div class="post">
-                    <div class="post-date">${formatDate(post.created_at)}</div>
-                    <div class="post-content">${escapeHtml(post.content)}</div>
-                </div>
-            `).join('');
-        }
+    <h2 style="margin-top:40px;">Education</h2>
+    <div class="item">
+      <span class="year">2026</span>
+      <h3>M.S. in Computer Science, Texas A&amp;M University</h3>
+    </div>
+    <div class="item">
+      <span class="year">2022</span>
+      <h3>Digital Finance (Blockchain), KAIST College of Business</h3>
+    </div>
+    <div class="item">
+      <span class="year">2019</span>
+      <h3>B.A. in International Business, Dankook University</h3>
+    </div>
 
-        function escapeHtml(text) {
-            const div = document.createElement('div');
-            div.textContent = text;
-            return div.innerHTML.replace(/\n/g, '<br>');
-        }
+    <h2 style="margin-top:40px;">Certifications</h2>
+    <p style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:0.95rem;">
+      <a href="https://cpaverify.org">USCPA</a> &middot;
+      <a href="https://www.isaca.org/credentialing/cisa">CISA</a> &middot;
+      <a href="https://www.isc2.org/certifications/cissp">CISSP (Associate)</a>
+    </p>
+  </section>
+</main>
 
-        function connectRelay(url) {
-            return new Promise((resolve) => {
-                try {
-                    const ws = new WebSocket(url);
-                    const subId = Math.random().toString(36).slice(2);
+<footer>
+  &copy; Junhyuk Lee &middot; <a href="https://github.com/xodn348/xodn348.github.io">source</a>
+</footer>
 
-                    ws.onopen = () => {
-                        const filter = {
-                            authors: [PUBKEY_HEX],
-                            kinds: [1], // text notes
-                            limit: 20
-                        };
-                        ws.send(JSON.stringify(['REQ', subId, filter]));
-                    };
-
-                    ws.onmessage = (e) => {
-                        try {
-                            const msg = JSON.parse(e.data);
-                            if (msg[0] === 'EVENT' && msg[2]) {
-                                const event = msg[2];
-                                if (!posts.find(p => p.id === event.id)) {
-                                    posts.push(event);
-                                    renderPosts();
-                                }
-                            }
-                            if (msg[0] === 'EOSE') {
-                                loaded = true;
-                                renderPosts();
-                            }
-                        } catch (err) {}
-                    };
-
-                    ws.onerror = () => resolve();
-                    
-                    setTimeout(() => {
-                        ws.close();
-                        resolve();
-                    }, 5000);
-                } catch (e) {
-                    resolve();
-                }
-            });
-        }
-
-        // Connect to all relays and load posts
-        Promise.all(RELAYS.map(connectRelay)).then(() => {
-            if (!loaded || posts.length === 0) {
-                renderPosts();
-            }
-        });
-
-        // ========== NIP-07 (Alby) Integration ==========
-        
-        let connectedPubkey = null;
-        let relayConnections = [];
-
-        // Check if NIP-07 extension is available
-        function hasNostrExtension() {
-            return typeof window.nostr !== 'undefined';
-        }
-
-        // UI elements
-        const loginPrompt = document.getElementById('login-prompt');
-        const loginBtn = document.getElementById('login-btn');
-        const postFormContainer = document.getElementById('post-form-container');
-        const logoutBtn = document.getElementById('logout-btn');
-        const postBtn = document.getElementById('post-btn');
-        const postContent = document.getElementById('post-content');
-        const postStatus = document.getElementById('post-status');
-
-        // Login with Nostr extension (only owner can post)
-        async function login() {
-            if (!hasNostrExtension()) {
-                alert('Nostr extension not found!\n\nPlease install Alby:\nhttps://getalby.com');
-                return;
-            }
-
-            try {
-                connectedPubkey = await window.nostr.getPublicKey();
-                
-                // Check if this is the owner
-                if (connectedPubkey !== PUBKEY_HEX) {
-                    alert('This is not your website.\n\nOnly the owner can post here.');
-                    connectedPubkey = null;
-                    return;
-                }
-                
-                loginPrompt.style.display = 'none';
-                postFormContainer.style.display = 'block';
-                
-                // Open persistent relay connections for posting
-                openRelayConnections();
-            } catch (e) {
-                console.error('Login failed:', e);
-                alert('Failed to connect. Please try again.');
-            }
-        }
-
-        // Logout
-        function logout() {
-            connectedPubkey = null;
-            loginPrompt.style.display = 'block';
-            postFormContainer.style.display = 'none';
-            closeRelayConnections();
-        }
-
-        // Open WebSocket connections for posting
-        function openRelayConnections() {
-            RELAYS.forEach(url => {
-                try {
-                    const ws = new WebSocket(url);
-                    ws.onopen = () => {
-                        relayConnections.push({ url, ws, ready: true });
-                    };
-                    ws.onerror = () => {};
-                    ws.onclose = () => {
-                        relayConnections = relayConnections.filter(r => r.url !== url);
-                    };
-                } catch (e) {}
-            });
-        }
-
-        // Close connections
-        function closeRelayConnections() {
-            relayConnections.forEach(r => r.ws.close());
-            relayConnections = [];
-        }
-
-        // Post to Nostr
-        async function postToNostr() {
-            const content = postContent.value.trim();
-            if (!content) {
-                postStatus.textContent = 'Please write something first.';
-                postStatus.className = 'status error';
-                return;
-            }
-
-            if (!connectedPubkey) {
-                postStatus.textContent = 'Please connect with Nostr first.';
-                postStatus.className = 'status error';
-                return;
-            }
-
-            postBtn.disabled = true;
-            postStatus.textContent = 'Signing...';
-            postStatus.className = 'status';
-
-            try {
-                // Create unsigned event
-                const event = {
-                    kind: 1,
-                    created_at: Math.floor(Date.now() / 1000),
-                    tags: [],
-                    content: content,
-                    pubkey: connectedPubkey
-                };
-
-                // Sign with extension
-                const signedEvent = await window.nostr.signEvent(event);
-
-                postStatus.textContent = 'Publishing...';
-
-                // Publish to relays
-                let published = 0;
-                const readyRelays = relayConnections.filter(r => r.ready && r.ws.readyState === 1);
-                
-                if (readyRelays.length === 0) {
-                    // Try to reconnect
-                    openRelayConnections();
-                    await new Promise(r => setTimeout(r, 1000));
-                }
-
-                const publishPromises = RELAYS.map(url => {
-                    return new Promise((resolve) => {
-                        try {
-                            const ws = new WebSocket(url);
-                            ws.onopen = () => {
-                                ws.send(JSON.stringify(['EVENT', signedEvent]));
-                            };
-                            ws.onmessage = (e) => {
-                                const msg = JSON.parse(e.data);
-                                if (msg[0] === 'OK' && msg[1] === signedEvent.id) {
-                                    published++;
-                                    resolve(true);
-                                }
-                            };
-                            ws.onerror = () => resolve(false);
-                            setTimeout(() => {
-                                ws.close();
-                                resolve(false);
-                            }, 3000);
-                        } catch (e) {
-                            resolve(false);
-                        }
-                    });
-                });
-
-                await Promise.all(publishPromises);
-
-                if (published > 0) {
-                    postStatus.textContent = `Posted to ${published} relay(s)!`;
-                    postStatus.className = 'status success';
-                    postContent.value = '';
-
-                    // Add to local posts array and re-render
-                    posts.push(signedEvent);
-                    renderPosts();
-                } else {
-                    postStatus.textContent = 'Failed to publish. Please try again.';
-                    postStatus.className = 'status error';
-                }
-            } catch (e) {
-                console.error('Post failed:', e);
-                postStatus.textContent = 'Failed to sign or publish. Please try again.';
-                postStatus.className = 'status error';
-            }
-
-            postBtn.disabled = false;
-        }
-
-        // Event listeners
-        loginBtn.addEventListener('click', login);
-        logoutBtn.addEventListener('click', logout);
-        postBtn.addEventListener('click', postToNostr);
-
-        // Allow Ctrl+Enter to post
-        postContent.addEventListener('keydown', (e) => {
-            if (e.ctrlKey && e.key === 'Enter') {
-                postToNostr();
-            }
-        });
-
-        // Check for extension on load
-        window.addEventListener('load', () => {
-            if (!hasNostrExtension()) {
-                loginBtn.textContent = 'Install Alby to post';
-                loginBtn.href = 'https://getalby.com';
-                loginBtn.target = '_blank';
-            }
-        });
-
-        // ========== COMMENTS SYSTEM ==========
-        
-        const comments = [];
-        const SITE_EVENT_ID = 'xodn348-github-io-comments'; // Unique identifier for this site
-        
-        // UI elements for comments
-        const commentLoginBtn = document.getElementById('comment-login-btn');
-        const commentFormContainer = document.getElementById('comment-form-container');
-        const commentLogin = document.getElementById('comment-login');
-        const commentContent = document.getElementById('comment-content');
-        const commentBtn = document.getElementById('comment-btn');
-        const commentStatus = document.getElementById('comment-status');
-        const commentsContainer = document.getElementById('nostr-comments');
-
-        // Load comments from relays (looking for replies to site identifier)
-        function loadComments() {
-            RELAYS.forEach(url => {
-                try {
-                    const ws = new WebSocket(url);
-                    const subId = 'comments-' + Math.random().toString(36).slice(2);
-
-                    ws.onopen = () => {
-                        // Search for events tagged with our site identifier
-                        const filter = {
-                            kinds: [1],
-                            '#t': ['xodn348-website-comment'],
-                            limit: 50
-                        };
-                        ws.send(JSON.stringify(['REQ', subId, filter]));
-                    };
-
-                    ws.onmessage = (e) => {
-                        try {
-                            const msg = JSON.parse(e.data);
-                            if (msg[0] === 'EVENT' && msg[2]) {
-                                const event = msg[2];
-                                if (!comments.find(c => c.id === event.id)) {
-                                    comments.push(event);
-                                    renderComments();
-                                }
-                            }
-                            if (msg[0] === 'EOSE') {
-                                renderComments();
-                            }
-                        } catch (err) {}
-                    };
-
-                    setTimeout(() => ws.close(), 5000);
-                } catch (e) {}
-            });
-        }
-
-        // Render comments
-        function renderComments() {
-            if (comments.length === 0) {
-                commentsContainer.innerHTML = '<p style="color: #888; font-style: italic;">No comments yet. Be the first!</p>';
-                return;
-            }
-
-            comments.sort((a, b) => a.created_at - b.created_at);
-
-            commentsContainer.innerHTML = comments.map(comment => {
-                const date = new Date(comment.created_at * 1000);
-                const dateStr = date.toLocaleDateString() + ' ' + date.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
-                const shortPubkey = comment.pubkey.slice(0, 8) + '...';
-                
-                return `
-                    <div class="comment">
-                        <div class="comment-author">
-                            <a href="https://njump.me/${comment.pubkey}" target="_blank">${shortPubkey}</a>
-                        </div>
-                        <div class="comment-content">${escapeHtml(comment.content)}</div>
-                        <div class="comment-date">${dateStr}</div>
-                    </div>
-                `;
-            }).join('');
-        }
-
-        // Comment login (anyone can comment)
-        async function commentLogin_click() {
-            if (!hasNostrExtension()) {
-                alert('Nostr extension not found!\n\nPlease install Alby:\nhttps://getalby.com');
-                return;
-            }
-
-            try {
-                const pubkey = await window.nostr.getPublicKey();
-                if (pubkey) {
-                    commentLogin.style.display = 'none';
-                    commentFormContainer.style.display = 'block';
-                }
-            } catch (e) {
-                console.error('Comment login failed:', e);
-            }
-        }
-
-        // Post comment
-        async function postComment() {
-            const content = commentContent.value.trim();
-            if (!content) {
-                commentStatus.textContent = 'Write something first';
-                commentStatus.className = 'status error';
-                return;
-            }
-
-            commentBtn.disabled = true;
-            commentStatus.textContent = 'Posting...';
-            commentStatus.className = 'status';
-
-            try {
-                const pubkey = await window.nostr.getPublicKey();
-                
-                const event = {
-                    kind: 1,
-                    created_at: Math.floor(Date.now() / 1000),
-                    tags: [['t', 'xodn348-website-comment']], // Tag for filtering
-                    content: content,
-                    pubkey: pubkey
-                };
-
-                const signedEvent = await window.nostr.signEvent(event);
-
-                let published = 0;
-                const publishPromises = RELAYS.map(url => {
-                    return new Promise((resolve) => {
-                        try {
-                            const ws = new WebSocket(url);
-                            ws.onopen = () => ws.send(JSON.stringify(['EVENT', signedEvent]));
-                            ws.onmessage = (e) => {
-                                const msg = JSON.parse(e.data);
-                                if (msg[0] === 'OK' && msg[1] === signedEvent.id) {
-                                    published++;
-                                    resolve(true);
-                                }
-                            };
-                            ws.onerror = () => resolve(false);
-                            setTimeout(() => { ws.close(); resolve(false); }, 3000);
-                        } catch (e) { resolve(false); }
-                    });
-                });
-
-                await Promise.all(publishPromises);
-
-                if (published > 0) {
-                    commentStatus.textContent = 'Posted!';
-                    commentStatus.className = 'status success';
-                    commentContent.value = '';
-                    comments.push(signedEvent);
-                    renderComments();
-                } else {
-                    commentStatus.textContent = 'Failed';
-                    commentStatus.className = 'status error';
-                }
-            } catch (e) {
-                commentStatus.textContent = 'Error';
-                commentStatus.className = 'status error';
-            }
-
-            commentBtn.disabled = false;
-        }
-
-        // Event listeners for comments
-        commentLoginBtn.addEventListener('click', commentLogin_click);
-        commentBtn.addEventListener('click', postComment);
-
-        // Load comments on page load
-        loadComments();
-    </script>
 </body>
 </html>
