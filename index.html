@@ -174,8 +174,18 @@ footer {
   font-size: 0.8rem;
 }
 
-.work { margin-bottom: 30px; }
-.work h3 { font-size: 1.08rem; margin: 0 0 7px; font-weight: 600; }
+.work { border-bottom: 1px solid var(--rule); padding: 12px 0; margin: 0; }
+.work summary {
+  cursor: pointer; list-style: none; display: flex;
+  justify-content: space-between; align-items: baseline; gap: 14px;
+}
+.work summary::-webkit-details-marker { display: none; }
+.work summary .ptitle { font-weight: 600; font-size: 1.05rem; }
+.work summary .year { float: none; white-space: nowrap; }
+.work summary::after { content: "+"; color: var(--muted); font-family: -apple-system, sans-serif; }
+.work[open] summary::after { content: "\2212"; }
+.work[open] summary { margin-bottom: 12px; }
+.work .kv.gh { margin-top: 10px; }
 .kv {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 0.92rem;
@@ -223,7 +233,6 @@ footer {
         <a href="mailto:xodn348@gmail.com">Email</a>
         <a href="https://github.com/xodn348">GitHub</a>
         <a href="https://www.linkedin.com/in/jun9207">LinkedIn</a>
-        <a href="https://arxiv.org/abs/2606.05503">arXiv</a>
       </p>
     </div>
   </header>
@@ -258,86 +267,86 @@ footer {
     <p class="cred" style="margin-bottom:22px;">Things I started and carried to the end. For each: why I
     started it, how the work split between me and AI, and the one thing I took away.</p>
 
-    <div class="work">
-      <span class="year">2026 · shipped</span>
-      <h3><a href="https://github.com/xodn348/han">Han, a Korean programming language</a></h3>
+    <details class="work">
+      <summary><span class="ptitle">Han, a Korean programming language</span><span class="year">2026 · shipped</span></summary>
       <p class="kv"><span class="k">Why</span> Hangul is a designed writing system, so I wanted to see what code looks like when the keywords, types, builtins, and even error messages are all Korean. And I wanted to ship a real LLVM-backed compiler, not a toy.</p>
       <p class="kv"><span class="k">Me</span> I designed the language: the syntax, the type system, the Korean keyword and error-message decisions, and the overall architecture. I set the direction and made the calls on what to build.</p>
       <p class="kv"><span class="k">AI</span> AI agents wrote most of the implementation under that design: the compiler pipeline, the LLVM codegen, the test and benchmark harness, the LSP, and the tooling.</p>
       <p class="kv"><span class="k">Learned</span> How a language is built end to end: lexer, parser, AST, type checking, and the difference between interpreting and compiling to LLVM IR.</p>
-    </div>
+      <p class="kv gh"><a href="https://github.com/xodn348/han">View on GitHub</a></p>
+    </details>
 
-    <div class="work">
-      <span class="year">2026 · live</span>
-      <h3><a href="https://github.com/xodn348/everymorning">EveryMorning</a></h3>
+    <details class="work">
+      <summary><span class="ptitle">EveryMorning</span><span class="year">2026 · live</span></summary>
       <p class="kv"><span class="k">Why</span> I wanted to keep up with new STEM research without drowning in arXiv, so I built a service that finds the most impactful papers each day, summarizes them, and emails me the top three by 7 AM. It runs for free at stemem.info.</p>
       <p class="kv"><span class="k">Me</span> I owned the product: what gets surfaced, the constraints (free tier only, send nothing rather than filler), and every operational piece, from the domain and hosting to the database, email, and secrets.</p>
       <p class="kv"><span class="k">AI</span> AI orchestrators built the implementation under my direction: the pipeline, the scoring, the web app, the unsubscribe flow. Their plans are committed into the repo as an audit trail.</p>
       <p class="kv"><span class="k">Learned</span> How to stand up a real service on zero-cost infrastructure: the Semantic Scholar API, Vercel, Supabase, and querying the database.</p>
-    </div>
+      <p class="kv gh"><a href="https://github.com/xodn348/everymorning">View on GitHub</a></p>
+    </details>
 
-    <div class="work">
-      <span class="year">2026 · 65★</span>
-      <h3><a href="https://github.com/xodn348/destiny">destiny</a></h3>
+    <details class="work">
+      <summary><span class="ptitle">destiny</span><span class="year">2026 · 65★</span></summary>
       <p class="kv"><span class="k">Why</span> A fun Claude Code plugin for a daily fortune reading, built on one principle: the numbers are computed, only the interpretation is generative. The saju and I Ching pillars are calculated locally, and the model just turns fixed numbers into prose.</p>
       <p class="kv"><span class="k">Me</span> I set the framing and the product taste (deterministic computation with generative interpretation, English by default, prose over data rows), triaged the Hacker News feedback into the next features, and published it.</p>
       <p class="kv"><span class="k">AI</span> AI wrote essentially all of the code and docs under that direction: the saju and I Ching engine, the skill spec, the README.</p>
       <p class="kv"><span class="k">Learned</span> How to target user demand and get fast feedback, even from a toy project.</p>
-    </div>
+      <p class="kv gh"><a href="https://github.com/xodn348/destiny">View on GitHub</a></p>
+    </details>
 
-    <div class="work">
-      <span class="year">2026 · shipped</span>
-      <h3><a href="https://github.com/xodn348/deeper">deeper</a></h3>
+    <details class="work">
+      <summary><span class="ptitle">deeper</span><span class="year">2026 · shipped</span></summary>
       <p class="kv"><span class="k">Why</span> I wanted an interview agent that drills one claim down to its bedrock instead of fanning out, the inverse of the usual breadth-first brainstorming tools.</p>
       <p class="kv"><span class="k">Me</span> I set the concept and architecture: inverting a breadth-keeping interviewer into a depth-keeper, synthesizing four existing patterns, and designing the self-improving loop.</p>
       <p class="kv"><span class="k">AI</span> AI agents built the engine under that design: the depth-first search and judge logic, the Claude Code dynamic workflow, the tests, and the docs.</p>
       <p class="kv"><span class="k">Learned</span> How to build a self-improving agent loop: parallel subagents, a skeptical reviewer, Claude Code dynamic workflows, and calling tools effectively.</p>
-    </div>
+      <p class="kv gh"><a href="https://github.com/xodn348/deeper">View on GitHub</a></p>
+    </details>
 
-    <div class="work">
-      <span class="year">2026 · 4★</span>
-      <h3><a href="https://github.com/xodn348/readhn">readhn</a></h3>
+    <details class="work">
+      <summary><span class="ptitle">readhn</span><span class="year">2026 · 4★</span></summary>
       <p class="kv"><span class="k">Why</span> The real engineering knowledge on Hacker News is buried in practitioner comments. I wanted a tool that surfaces it through the user's lens and explains why each result matters.</p>
       <p class="kv"><span class="k">Me</span> I set the direction: rebuild around three primitives, make trust the central signal, pick the seed experts, and ship it to PyPI and the MCP registry.</p>
       <p class="kv"><span class="k">AI</span> An AI agent harness built essentially the whole codebase in one session, around 7,000 lines with full test coverage, under that direction.</p>
       <p class="kv"><span class="k">Learned</span> How to find real signal in noise: the Hacker News API, and eigenvector-based trust ranking across a network.</p>
-    </div>
+      <p class="kv gh"><a href="https://github.com/xodn348/readhn">View on GitHub</a></p>
+    </details>
 
-    <div class="work">
-      <span class="year">2026 · on npm</span>
-      <h3><a href="https://github.com/xodn348/codekit">codekit</a></h3>
+    <details class="work">
+      <summary><span class="ptitle">codekit</span><span class="year">2026 · on npm</span></summary>
       <p class="kv"><span class="k">Why</span> AI agents write better, safer code when you give them a quality bar and a security floor. codekit bundles an evidence-based coding constitution (ai-native) with a fully local security scanner (codesure).</p>
       <p class="kv"><span class="k">Me</span> I owned the product strategy, the monorepo structure, the npm releases, and all the docs, including toning down the benchmark claims.</p>
       <p class="kv"><span class="k">AI</span> AI agents wrote most of the net-new implementation: the scanner engine, the rule sets, and the test and benchmark suites.</p>
       <p class="kv"><span class="k">Learned</span> How to make a codebase readable and safe for AI agents: quality review, security scanning, and writing for LLM readability.</p>
-    </div>
+      <p class="kv gh"><a href="https://github.com/xodn348/codekit">View on GitHub</a></p>
+    </details>
 
-    <div class="work">
-      <span class="year">2026 · tool</span>
-      <h3><a href="https://github.com/xodn348/cleanup">cleanup</a></h3>
+    <details class="work">
+      <summary><span class="ptitle">cleanup</span><span class="year">2026 · tool</span></summary>
       <p class="kv"><span class="k">Why</span> My Claude Code sessions got slow carrying around 60 unused skills and tools. cleanup passively logs what I actually call and nudges me to remove what has gone quiet, but never deletes on its own.</p>
       <p class="kv"><span class="k">Me</span> I brought the problem and the product judgment: the safety design (recommend, never auto-delete) and the README voice and iteration.</p>
       <p class="kv"><span class="k">AI</span> AI wrote nearly all of the shell tooling and docs under that direction.</p>
       <p class="kv"><span class="k">Learned</span> How a skill's initial context loads, and how to keep SKILL.md and CLAUDE.md lean.</p>
-    </div>
+      <p class="kv gh"><a href="https://github.com/xodn348/cleanup">View on GitHub</a></p>
+    </details>
 
-    <div class="work">
-      <span class="year">2026 · live</span>
-      <h3><a href="https://xodn348.github.io/future-history/">future-history</a></h3>
+    <details class="work">
+      <summary><span class="ptitle">future-history</span><span class="year">2026 · live</span></summary>
       <p class="kv"><span class="k">Why</span> A data-anchored forecast of humanity from 2026 to 2200 across three internally consistent branches, with code-generated era art. The thesis: capability is near certain across all branches; the open question is distribution.</p>
       <p class="kv"><span class="k">Me</span> I set the concept (three branches, six eras, confidence tags), pushed it toward plain language, and made the call to strip the multilingual system back to English.</p>
       <p class="kv"><span class="k">AI</span> More than a dozen AI agents generated the content and art: each branch arc, each era illustration, and the per-era syntheses.</p>
       <p class="kv"><span class="k">Learned</span> How iterative agentic communication works, with many agents passing work back and forth to converge.</p>
-    </div>
+      <p class="kv gh"><a href="https://xodn348.github.io/future-history/">Visit site</a></p>
+    </details>
 
-    <div class="work">
-      <span class="year">2026 · live</span>
-      <h3><a href="https://xodn348.github.io/museum-as-code/">museum-as-code</a></h3>
+    <details class="work">
+      <summary><span class="ptitle">museum-as-code</span><span class="year">2026 · live</span></summary>
       <p class="kv"><span class="k">Why</span> Rebuild the National Museum of Korea as code, where every artifact record is real source in Han. The cultural archive and the language demo become the same executable artifact.</p>
       <p class="kv"><span class="k">Me</span> I owned the curation and the strict rule of real Han syntax only, no fake pseudocode, and gated every feature through review and merge.</p>
       <p class="kv"><span class="k">AI</span> AI agents generated the artifact entries, pages, and QA across parallel worktrees under that mandate.</p>
       <p class="kv"><span class="k">Learned</span> Putting Han to real use: implementing an entire archive in the language I built.</p>
-    </div>
+      <p class="kv gh"><a href="https://xodn348.github.io/museum-as-code/">Visit site</a></p>
+    </details>
 
     <h2 style="margin-top:44px;">Currently building</h2>
     <ul class="clean">
@@ -345,7 +354,7 @@ footer {
     </ul>
 
     <p style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:0.88rem;margin-top:18px;">
-      <a href="projects/">All public repositories</a>
+      <a href="https://github.com/xodn348?tab=repositories">All public repositories on GitHub</a>
     </p>
   </section>
 
