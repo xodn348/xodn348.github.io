@@ -268,6 +268,7 @@ footer {
 
     <details class="work">
       <summary><span class="ptitle">Han, a Korean programming language</span><span class="year">2026 · 184★</span></summary>
+      <p class="kv"><span class="k">What</span> A general-purpose programming language whose keywords, types, builtins, and error messages are all Korean, compiled to native code through LLVM.</p>
       <p class="kv"><span class="k">Why</span> Hangul is a designed writing system, so I wanted to see what code looks like when the keywords, types, builtins, and even error messages are all Korean. And I wanted to ship a real LLVM-backed compiler, not a toy.</p>
       <p class="kv"><span class="k">Me</span> I designed the language: the syntax, the type system, the Korean keyword and error-message decisions, and the overall architecture. I set the direction and made the calls on what to build.</p>
       <p class="kv"><span class="k">AI</span> AI agents wrote most of the implementation under that design: the compiler pipeline, the LLVM codegen, the test and benchmark harness, the LSP, and the tooling.</p>
@@ -277,6 +278,7 @@ footer {
 
     <details class="work">
       <summary><span class="ptitle">EveryMorning</span><span class="year">2026 · live</span></summary>
+      <p class="kv"><span class="k">What</span> A free service that emails me the three most impactful new STEM papers every morning by 7 AM, at stemem.info.</p>
       <p class="kv"><span class="k">Why</span> I wanted to keep up with new STEM research without drowning in arXiv, so I built a service that finds the most impactful papers each day, summarizes them, and emails me the top three by 7 AM. It runs for free at stemem.info.</p>
       <p class="kv"><span class="k">Me</span> I owned the product: what gets surfaced, the constraints (free tier only, send nothing rather than filler), and every operational piece, from the domain and hosting to the database, email, and secrets.</p>
       <p class="kv"><span class="k">AI</span> AI orchestrators built the implementation under my direction: the pipeline, the scoring, the web app, the unsubscribe flow. Their plans are committed into the repo as an audit trail.</p>
@@ -286,6 +288,7 @@ footer {
 
     <details class="work">
       <summary><span class="ptitle">destiny</span><span class="year">2026 · 65★</span></summary>
+      <p class="kv"><span class="k">What</span> A Claude Code plugin for a daily fortune reading: the saju and I Ching numbers are computed locally, and only the interpretation is generated.</p>
       <p class="kv"><span class="k">Why</span> A fun Claude Code plugin for a daily fortune reading, built on one principle: the numbers are computed, only the interpretation is generative. The saju and I Ching pillars are calculated locally, and the model just turns fixed numbers into prose.</p>
       <p class="kv"><span class="k">Me</span> I set the framing and the product taste (deterministic computation with generative interpretation, English by default, prose over data rows), triaged the Hacker News feedback into the next features, and published it.</p>
       <p class="kv"><span class="k">AI</span> AI wrote essentially all of the code and docs under that direction: the saju and I Ching engine, the skill spec, the README.</p>
@@ -295,6 +298,7 @@ footer {
 
     <details class="work">
       <summary><span class="ptitle">deeper</span><span class="year">2026 · shipped</span></summary>
+      <p class="kv"><span class="k">What</span> A depth-first interview agent that drills a single claim down to its bedrock first principle instead of branching out.</p>
       <p class="kv"><span class="k">Why</span> I wanted an interview agent that drills one claim down to its bedrock instead of fanning out, the inverse of the usual breadth-first brainstorming tools.</p>
       <p class="kv"><span class="k">Me</span> I set the concept and architecture: inverting a breadth-keeping interviewer into a depth-keeper, synthesizing four existing patterns, and designing the self-improving loop.</p>
       <p class="kv"><span class="k">AI</span> AI agents built the engine under that design: the depth-first search and judge logic, the Claude Code dynamic workflow, the tests, and the docs.</p>
@@ -304,6 +308,7 @@ footer {
 
     <details class="work">
       <summary><span class="ptitle">readhn</span><span class="year">2026 · 4★</span></summary>
+      <p class="kv"><span class="k">What</span> An AI-native Hacker News MCP server that surfaces practitioner knowledge through eigenvector-based trust ranking.</p>
       <p class="kv"><span class="k">Why</span> The real engineering knowledge on Hacker News is buried in practitioner comments. I wanted a tool that surfaces it through the user's lens and explains why each result matters.</p>
       <p class="kv"><span class="k">Me</span> I set the direction: rebuild around three primitives, make trust the central signal, pick the seed experts, and ship it to PyPI and the MCP registry.</p>
       <p class="kv"><span class="k">AI</span> An AI agent harness built essentially the whole codebase in one session, around 7,000 lines with full test coverage, under that direction.</p>
@@ -313,6 +318,7 @@ footer {
 
     <details class="work">
       <summary><span class="ptitle">codekit</span><span class="year">2026 · on npm</span></summary>
+      <p class="kv"><span class="k">What</span> An AI-native toolkit that pairs an evidence-based coding constitution with a fully local security scanner for AI-written code.</p>
       <p class="kv"><span class="k">Why</span> AI agents write better, safer code when you give them a quality bar and a security floor. codekit bundles an evidence-based coding constitution (ai-native) with a fully local security scanner (codesure).</p>
       <p class="kv"><span class="k">Me</span> I owned the product strategy, the monorepo structure, the npm releases, and all the docs, including toning down the benchmark claims.</p>
       <p class="kv"><span class="k">AI</span> AI agents wrote most of the net-new implementation: the scanner engine, the rule sets, and the test and benchmark suites.</p>
@@ -322,6 +328,7 @@ footer {
 
     <details class="work">
       <summary><span class="ptitle">cleanup</span><span class="year">2026 · tool</span></summary>
+      <p class="kv"><span class="k">What</span> A Claude Code tool that passively tracks which skills and tools I actually use and recommends removing the ones gone quiet, never deleting on its own.</p>
       <p class="kv"><span class="k">Why</span> My Claude Code sessions got slow carrying around 60 unused skills and tools. cleanup passively logs what I actually call and nudges me to remove what has gone quiet, but never deletes on its own.</p>
       <p class="kv"><span class="k">Me</span> I brought the problem and the product judgment: the safety design (recommend, never auto-delete) and the README voice and iteration.</p>
       <p class="kv"><span class="k">AI</span> AI wrote nearly all of the shell tooling and docs under that direction.</p>
@@ -331,6 +338,7 @@ footer {
 
     <details class="work">
       <summary><span class="ptitle">future-history</span><span class="year">2026 · live</span></summary>
+      <p class="kv"><span class="k">What</span> A data-anchored forecast of humanity from 2026 to 2200 across three internally consistent branches, with code-generated era art.</p>
       <p class="kv"><span class="k">Why</span> A data-anchored forecast of humanity from 2026 to 2200 across three internally consistent branches, with code-generated era art. The thesis: capability is near certain across all branches; the open question is distribution.</p>
       <p class="kv"><span class="k">Me</span> I set the concept (three branches, six eras, confidence tags), pushed it toward plain language, and made the call to strip the multilingual system back to English.</p>
       <p class="kv"><span class="k">AI</span> More than a dozen AI agents generated the content and art: each branch arc, each era illustration, and the per-era syntheses.</p>
@@ -340,6 +348,7 @@ footer {
 
     <details class="work">
       <summary><span class="ptitle">museum-as-code</span><span class="year">2026 · live</span></summary>
+      <p class="kv"><span class="k">What</span> The National Museum of Korea rebuilt as code, where every artifact record is real, executable Han source.</p>
       <p class="kv"><span class="k">Why</span> Rebuild the National Museum of Korea as code, where every artifact record is real source in Han. The cultural archive and the language demo become the same executable artifact.</p>
       <p class="kv"><span class="k">Me</span> I owned the curation and the strict rule of real Han syntax only, no fake pseudocode, and gated every feature through review and merge.</p>
       <p class="kv"><span class="k">AI</span> AI agents generated the artifact entries, pages, and QA across parallel worktrees under that mandate.</p>
