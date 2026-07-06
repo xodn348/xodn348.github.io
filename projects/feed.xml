@@ -4,8 +4,15 @@
     <title>xodn348 public projects</title>
     <link>https://github.com/xodn348</link>
     <description>Auto-updated public project feed for xodn348</description>
-    <lastBuildDate>Sun, 05 Jul 2026 15:39:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 17:16:48 +0000</lastBuildDate>
 
+    <item>
+      <title>codesure</title>
+      <link>https://github.com/xodn348/codesure</link>
+      <guid>https://github.com/xodn348/codesure</guid>
+      <pubDate>Sun, 05 Jul 2026 19:59:46 +0000</pubDate>
+      <description>⚠️ Moved to xodn348/codekit — Privacy-first security scanner (monorepo)</description>
+    </item>
     <item>
       <title>ray.project-reproducibility</title>
       <link>https://github.com/xodn348/ray.project-reproducibility</link>
