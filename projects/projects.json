@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-07-17T15:45:57.657271+00:00",
+  "generated_at": "2026-07-18T15:17:22.996085+00:00",
   "owner": "xodn348",
   "repos": [
+    {
+      "created_at": "2026-06-25T19:29:03Z",
+      "description": "Autonomous payments between AI agents",
+      "full_name": "xodn348/computermoney",
+      "language": "Rust",
+      "name": "computermoney",
+      "pushed_at": "2026-07-18T04:47:39Z",
+      "stars": 0,
+      "topics": [],
+      "updated_at": "2026-07-18T04:47:42Z",
+      "url": "https://github.com/xodn348/computermoney"
+    },
     {
       "created_at": "2026-03-12T19:44:51Z",
       "description": "⚠️ Moved to xodn348/codekit — Privacy-first security scanner (monorepo)",
@@ -226,9 +238,9 @@
       "language": "Python",
       "name": "readhn",
       "pushed_at": "2026-03-11T00:31:07Z",
-      "stars": 4,
+      "stars": 5,
       "topics": [],
-      "updated_at": "2026-03-16T04:06:46Z",
+      "updated_at": "2026-07-18T00:15:53Z",
       "url": "https://github.com/xodn348/readhn"
     },
     {

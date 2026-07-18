@@ -4,8 +4,15 @@
     <title>xodn348 public projects</title>
     <link>https://github.com/xodn348</link>
     <description>Auto-updated public project feed for xodn348</description>
-    <lastBuildDate>Fri, 17 Jul 2026 15:45:57 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 15:17:22 +0000</lastBuildDate>
 
+    <item>
+      <title>computermoney</title>
+      <link>https://github.com/xodn348/computermoney</link>
+      <guid>https://github.com/xodn348/computermoney</guid>
+      <pubDate>Sat, 18 Jul 2026 04:47:39 +0000</pubDate>
+      <description>Autonomous payments between AI agents</description>
+    </item>
     <item>
       <title>codesure</title>
       <link>https://github.com/xodn348/codesure</link>
