@@ -267,6 +267,16 @@ footer {
     started it, how the work split between me and AI, and the one thing I took away.</p>
 
     <details class="work">
+      <summary><span class="ptitle">computermoney</span><span class="year">2026 · active</span></summary>
+      <p class="kv"><span class="k">What</span> A self-custodial Bitcoin payment rail for AI agents: agents discover each other on the Mainline DHT, talk over WireGuard, and settle on Bitcoin L1, with no processor and no account.</p>
+      <p class="kv"><span class="k">Why</span> Agents will need to pay each other without a payment company in the middle. Bitcoin is the rail that needs nobody's permission, so I built the whole loop on it: discovery, messaging, settlement, and HTTP 402 paywalls for selling data over the web.</p>
+      <p class="kv"><span class="k">Me</span> I own the product and the protocol choices: Taproot and BIP-352 silent payments so a payee can be paid while offline, the signed DHT card design, the 402 flow, and every scope call along the way.</p>
+      <p class="kv"><span class="k">AI</span> AI agents wrote most of the Rust implementation under that design: the wallet, the DHT and WireGuard layers, the MCP tools, and the end-to-end tests on signet.</p>
+      <p class="kv"><span class="k">Learned</span> Bitcoin at the protocol level: Taproot, silent payments, and what it takes for two agents to move real money with no human in the loop.</p>
+      <p class="kv gh"><a href="https://github.com/xodn348/computermoney">View on GitHub</a></p>
+    </details>
+
+    <details class="work">
       <summary><span class="ptitle">Han, a Korean programming language</span><span class="year">2026 · 184★</span></summary>
       <p class="kv"><span class="k">What</span> A general-purpose programming language whose keywords, types, builtins, and error messages are all Korean, compiled to native code through LLVM.</p>
       <p class="kv"><span class="k">Why</span> Hangul is a designed writing system, so I wanted to see what code looks like when the keywords, types, builtins, and even error messages are all Korean. And I wanted to ship a real LLVM-backed compiler, not a toy.</p>
@@ -337,6 +347,16 @@ footer {
     </details>
 
     <details class="work">
+      <summary><span class="ptitle">readpdf</span><span class="year">2026 · on PyPI</span></summary>
+      <p class="kv"><span class="k">What</span> A small CLI that converts PDFs to text so AI agents read only the sections they need, cutting up to 90% of the tokens a vision read would cost.</p>
+      <p class="kv"><span class="k">Why</span> Reading PDFs with vision costs hundreds of tokens per page. Converting to text first, then reading with offset and limit, is dramatically cheaper, so I packaged the pattern as a pip-installable tool plus a one-paragraph agent instruction.</p>
+      <p class="kv"><span class="k">Me</span> I brought the problem from daily paper reading, set the design rule (convert first, never read PDF bytes directly), and shipped it to PyPI.</p>
+      <p class="kv"><span class="k">AI</span> AI wrote the CLI, the tests, and the README under that direction.</p>
+      <p class="kv"><span class="k">Learned</span> The token economics of how agents read files, and how far a tiny tool plus a system-prompt convention can go.</p>
+      <p class="kv gh"><a href="https://github.com/xodn348/readpdf">View on GitHub</a></p>
+    </details>
+
+    <details class="work">
       <summary><span class="ptitle">future-history</span><span class="year">2026 · live</span></summary>
       <p class="kv"><span class="k">What</span> A data-anchored forecast of humanity from 2026 to 2200 across three internally consistent branches, with code-generated era art.</p>
       <p class="kv"><span class="k">Why</span> A data-anchored forecast of humanity from 2026 to 2200 across three internally consistent branches, with code-generated era art. The thesis: capability is near certain across all branches; the open question is distribution.</p>
@@ -356,10 +376,15 @@ footer {
       <p class="kv gh"><a href="https://xodn348.github.io/museum-as-code/">Visit site</a></p>
     </details>
 
-    <h2 style="margin-top:44px;">Currently building</h2>
-    <ul class="clean">
-      <li><strong>computermoney</strong>: a Bitcoin-native wallet for AI agents, on Taproot (Rust).</li>
-    </ul>
+    <details class="work">
+      <summary><span class="ptitle">lifelog / worklog</span><span class="year">2026 · running daily</span></summary>
+      <p class="kv"><span class="k">What</span> Two automations that record my days without me touching them: lifelog assembles a full 24-hour ledger (health, coding activity, messages, location, browsing) into twice-daily iMessage cards, and worklog compiles a daily evidence log of everything I shipped.</p>
+      <p class="kv"><span class="k">Why</span> You cannot improve, or eventually model, what you do not record. I wanted my whole day observable at a glance and a durable daily record of my work, produced automatically while I sleep.</p>
+      <p class="kv"><span class="k">Me</span> I decided what gets measured, the privacy boundary (all personal data stays on my machine, only code lives in the repos), and the report formats I would actually read.</p>
+      <p class="kv"><span class="k">AI</span> AI built the collectors, the renderers, and the launchd scheduling for both pipelines.</p>
+      <p class="kv"><span class="k">Learned</span> How much of a life already sits in local system data stores, and how to condense it into a report worth opening every day.</p>
+      <p class="kv gh"><span class="cred">Private repos, data stays local</span></p>
+    </details>
 
     <p style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:0.88rem;margin-top:18px;">
       <a href="https://github.com/xodn348?tab=repositories">All public repositories on GitHub</a>
