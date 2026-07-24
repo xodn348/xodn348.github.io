@@ -287,26 +287,6 @@ footer {
     </details>
 
     <details class="work">
-      <summary><span class="ptitle">EveryMorning</span><span class="year">2026 · live</span></summary>
-      <p class="kv"><span class="k">What</span> A free service that emails me the three most impactful new STEM papers every morning by 7 AM, at stemem.info.</p>
-      <p class="kv"><span class="k">Why</span> I wanted to keep up with new STEM research without drowning in arXiv, so I built a service that finds the most impactful papers each day, summarizes them, and emails me the top three by 7 AM. It runs for free at stemem.info.</p>
-      <p class="kv"><span class="k">Me</span> I owned the product: what gets surfaced, the constraints (free tier only, send nothing rather than filler), and every operational piece, from the domain and hosting to the database, email, and secrets.</p>
-      <p class="kv"><span class="k">AI</span> AI orchestrators built the implementation under my direction: the pipeline, the scoring, the web app, the unsubscribe flow. Their plans are committed into the repo as an audit trail.</p>
-      <p class="kv"><span class="k">Learned</span> How to stand up a real service on zero-cost infrastructure: the Semantic Scholar API, Vercel, Supabase, and querying the database.</p>
-      <p class="kv gh"><a href="https://github.com/xodn348/everymorning">View on GitHub</a></p>
-    </details>
-
-    <details class="work">
-      <summary><span class="ptitle">destiny</span><span class="year">2026 · 65★</span></summary>
-      <p class="kv"><span class="k">What</span> A Claude Code plugin for a daily fortune reading: the saju and I Ching numbers are computed locally, and only the interpretation is generated.</p>
-      <p class="kv"><span class="k">Why</span> A fun Claude Code plugin for a daily fortune reading, built on one principle: the numbers are computed, only the interpretation is generative. The saju and I Ching pillars are calculated locally, and the model just turns fixed numbers into prose.</p>
-      <p class="kv"><span class="k">Me</span> I set the framing and the product taste (deterministic computation with generative interpretation, English by default, prose over data rows), triaged the Hacker News feedback into the next features, and published it.</p>
-      <p class="kv"><span class="k">AI</span> AI wrote essentially all of the code and docs under that direction: the saju and I Ching engine, the skill spec, the README.</p>
-      <p class="kv"><span class="k">Learned</span> How to target user demand and get fast feedback, even from a toy project.</p>
-      <p class="kv gh"><a href="https://github.com/xodn348/destiny">View on GitHub</a></p>
-    </details>
-
-    <details class="work">
       <summary><span class="ptitle">deeper</span><span class="year">2026 · shipped</span></summary>
       <p class="kv"><span class="k">What</span> A depth-first interview agent that drills a single claim down to its bedrock first principle instead of branching out.</p>
       <p class="kv"><span class="k">Why</span> I wanted an interview agent that drills one claim down to its bedrock instead of fanning out, the inverse of the usual breadth-first brainstorming tools.</p>
@@ -317,6 +297,26 @@ footer {
     </details>
 
     <details class="work">
+      <summary><span class="ptitle">lifelog / worklog</span><span class="year">2026 · running daily</span></summary>
+      <p class="kv"><span class="k">What</span> Two automations that record my days without me touching them: lifelog assembles a full 24-hour ledger (health, coding activity, messages, location, browsing) into twice-daily iMessage cards, and worklog compiles a daily evidence log of everything I shipped.</p>
+      <p class="kv"><span class="k">Why</span> You cannot improve, or eventually model, what you do not record. I wanted my whole day observable at a glance and a durable daily record of my work, produced automatically while I sleep.</p>
+      <p class="kv"><span class="k">Me</span> I decided what gets measured, the privacy boundary (all personal data stays on my machine, only code lives in the repos), and the report formats I would actually read.</p>
+      <p class="kv"><span class="k">AI</span> AI built the collectors, the renderers, and the launchd scheduling for both pipelines.</p>
+      <p class="kv"><span class="k">Learned</span> How much of a life already sits in local system data stores, and how to condense it into a report worth opening every day.</p>
+      <p class="kv gh"><span class="cred">Private repos, data stays local</span></p>
+    </details>
+
+    <details class="work">
+      <summary><span class="ptitle">EveryMorning</span><span class="year">2026 · live</span></summary>
+      <p class="kv"><span class="k">What</span> A free service that emails me the three most impactful new STEM papers every morning by 7 AM, at stemem.info.</p>
+      <p class="kv"><span class="k">Why</span> I wanted to keep up with new STEM research without drowning in arXiv, so I built a service that finds the most impactful papers each day, summarizes them, and emails me the top three by 7 AM. It runs for free at stemem.info.</p>
+      <p class="kv"><span class="k">Me</span> I owned the product: what gets surfaced, the constraints (free tier only, send nothing rather than filler), and every operational piece, from the domain and hosting to the database, email, and secrets.</p>
+      <p class="kv"><span class="k">AI</span> AI orchestrators built the implementation under my direction: the pipeline, the scoring, the web app, the unsubscribe flow. Their plans are committed into the repo as an audit trail.</p>
+      <p class="kv"><span class="k">Learned</span> How to stand up a real service on zero-cost infrastructure: the Semantic Scholar API, Vercel, Supabase, and querying the database.</p>
+      <p class="kv gh"><a href="https://github.com/xodn348/everymorning">View on GitHub</a></p>
+    </details>
+
+    <details class="work">
       <summary><span class="ptitle">readhn</span><span class="year">2026 · 4★</span></summary>
       <p class="kv"><span class="k">What</span> An AI-native Hacker News MCP server that surfaces practitioner knowledge through eigenvector-based trust ranking.</p>
       <p class="kv"><span class="k">Why</span> The real engineering knowledge on Hacker News is buried in practitioner comments. I wanted a tool that surfaces it through the user's lens and explains why each result matters.</p>
@@ -324,6 +324,16 @@ footer {
       <p class="kv"><span class="k">AI</span> An AI agent harness built essentially the whole codebase in one session, around 7,000 lines with full test coverage, under that direction.</p>
       <p class="kv"><span class="k">Learned</span> How to find real signal in noise: the Hacker News API, and eigenvector-based trust ranking across a network.</p>
       <p class="kv gh"><a href="https://github.com/xodn348/readhn">View on GitHub</a></p>
+    </details>
+
+    <details class="work">
+      <summary><span class="ptitle">destiny</span><span class="year">2026 · 65★</span></summary>
+      <p class="kv"><span class="k">What</span> A Claude Code plugin for a daily fortune reading: the saju and I Ching numbers are computed locally, and only the interpretation is generated.</p>
+      <p class="kv"><span class="k">Why</span> A fun Claude Code plugin for a daily fortune reading, built on one principle: the numbers are computed, only the interpretation is generative. The saju and I Ching pillars are calculated locally, and the model just turns fixed numbers into prose.</p>
+      <p class="kv"><span class="k">Me</span> I set the framing and the product taste (deterministic computation with generative interpretation, English by default, prose over data rows), triaged the Hacker News feedback into the next features, and published it.</p>
+      <p class="kv"><span class="k">AI</span> AI wrote essentially all of the code and docs under that direction: the saju and I Ching engine, the skill spec, the README.</p>
+      <p class="kv"><span class="k">Learned</span> How to target user demand and get fast feedback, even from a toy project.</p>
+      <p class="kv gh"><a href="https://github.com/xodn348/destiny">View on GitHub</a></p>
     </details>
 
     <details class="work">
@@ -374,16 +384,6 @@ footer {
       <p class="kv"><span class="k">AI</span> AI agents generated the artifact entries, pages, and QA across parallel worktrees under that mandate.</p>
       <p class="kv"><span class="k">Learned</span> Putting Han to real use: implementing an entire archive in the language I built.</p>
       <p class="kv gh"><a href="https://xodn348.github.io/museum-as-code/">Visit site</a></p>
-    </details>
-
-    <details class="work">
-      <summary><span class="ptitle">lifelog / worklog</span><span class="year">2026 · running daily</span></summary>
-      <p class="kv"><span class="k">What</span> Two automations that record my days without me touching them: lifelog assembles a full 24-hour ledger (health, coding activity, messages, location, browsing) into twice-daily iMessage cards, and worklog compiles a daily evidence log of everything I shipped.</p>
-      <p class="kv"><span class="k">Why</span> You cannot improve, or eventually model, what you do not record. I wanted my whole day observable at a glance and a durable daily record of my work, produced automatically while I sleep.</p>
-      <p class="kv"><span class="k">Me</span> I decided what gets measured, the privacy boundary (all personal data stays on my machine, only code lives in the repos), and the report formats I would actually read.</p>
-      <p class="kv"><span class="k">AI</span> AI built the collectors, the renderers, and the launchd scheduling for both pipelines.</p>
-      <p class="kv"><span class="k">Learned</span> How much of a life already sits in local system data stores, and how to condense it into a report worth opening every day.</p>
-      <p class="kv gh"><span class="cred">Private repos, data stays local</span></p>
     </details>
 
     <p style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:0.88rem;margin-top:18px;">
