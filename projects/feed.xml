@@ -4,8 +4,15 @@
     <title>xodn348 public projects</title>
     <link>https://github.com/xodn348</link>
     <description>Auto-updated public project feed for xodn348</description>
-    <lastBuildDate>Fri, 31 Jul 2026 16:13:24 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 15:29:59 +0000</lastBuildDate>
 
+    <item>
+      <title>han</title>
+      <link>https://github.com/xodn348/han</link>
+      <guid>https://github.com/xodn348/han</guid>
+      <pubDate>Fri, 31 Jul 2026 20:44:29 +0000</pubDate>
+      <description>A compiled programming language with Korean keywords, written in Rust</description>
+    </item>
     <item>
       <title>computermoney</title>
       <link>https://github.com/xodn348/computermoney</link>
@@ -89,13 +96,6 @@
       <guid>https://github.com/xodn348/BTC_EXP</guid>
       <pubDate>Mon, 18 May 2026 23:04:05 +0000</pubDate>
       <description>Bitcoin network explorer and analysis tools</description>
-    </item>
-    <item>
-      <title>han</title>
-      <link>https://github.com/xodn348/han</link>
-      <guid>https://github.com/xodn348/han</guid>
-      <pubDate>Wed, 06 May 2026 16:15:29 +0000</pubDate>
-      <description>A compiled programming language with Korean keywords, written in Rust</description>
     </item>
     <item>
       <title>cc-img-proxy</title>
